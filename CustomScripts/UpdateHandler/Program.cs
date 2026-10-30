@@ -4,6 +4,13 @@ namespace UpdateHandler;
 
 public static class Program
 {
+    public static CacheTypeData[] CacheTypes { get; } = [
+        new(CacheType.Configs, "config"),
+        new(CacheType.Mods, "mods", StoredCacheType.FileName),
+        new(CacheType.KubeJs, "kubejs"),
+        new(CacheType.Shaders, "shaderpacks", StoredCacheType.FileName),
+        new(CacheType.ResourcePacks, "resourcepacks", StoredCacheType.FileName)];
+    
     public static void Main(string[] args)
     {
         CacheController.ActiveModpackDirectory = GetModpackDirectoryCache(args);
@@ -78,6 +85,23 @@ public static class Program
         }
     }
 
+    public record class CacheTypeData(CacheType Type, string Location, StoredCacheType StoredCacheType = StoredCacheType.File);
+
+    public enum CacheType
+    {
+        Configs,
+        KubeJs,
+        Mods,
+        Shaders,
+        ResourcePacks,
+    }
+
+    public enum StoredCacheType
+    {
+        File,
+        FileName,
+    }
+    
     private enum Action
     {
         None,

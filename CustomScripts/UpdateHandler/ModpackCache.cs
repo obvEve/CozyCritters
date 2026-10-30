@@ -6,6 +6,12 @@
 /// </summary>
 public class ModpackCache : IComparable<ModpackCache>
 {
+    public const string ModsDirectory = "mods";
+    public const string ConfigsDirectory = "config";
+    public const string KubeJsDirectory = "kubejs";
+    public const string ShadersDirectory = "shaderpacks";
+    public const string ResourcePacksDirectory = "resourcepacks";
+    
     public ModpackCache(Version version, DirectoryInfo cacheLocation)
     {
         Version = version;
@@ -15,11 +21,11 @@ public class ModpackCache : IComparable<ModpackCache>
     public Version Version { get; }
     public DirectoryInfo CacheDirectory { get; }
     
-    public List<string> Mods { get; private set; }
-    public List<FileInfo> Configs { get; private set; }
-    public List<FileInfo> KubeJs { get; private set; }
-    public List<string> Shaders { get; private set; }
-    public List<string> ResourcePacks { get; private set; }
+    public string[] Mods { get; private set; }
+    public FileInfo[] Configs { get; private set; }
+    public FileInfo[] KubeJs { get; private set; }
+    public string[] Shaders { get; private set; }
+    public string[] ResourcePacks { get; private set; }
 
     public void Read(bool @override = false)
     {
@@ -28,9 +34,25 @@ public class ModpackCache : IComparable<ModpackCache>
             Generate();
             return;
         }
+        
+        Mods = new DirectoryInfo(Path.Combine(CacheDirectory.FullName, ModsDirectory)).GetFiles().Select(x => x.Name).ToArray();
+        Configs = new DirectoryInfo(Path.Combine(CacheDirectory.FullName, ConfigsDirectory)).EnumerateFileSystemInfos().Select(); // need to get all directories and files and note their info
+        KubeJs = new DirectoryInfo(Path.Combine(CacheDirectory.FullName, KubeJsDirectory)).EnumerateFileSystemInfos().Select();
+        Shaders = new DirectoryInfo(Path.Combine(CacheDirectory.FullName, ShadersDirectory)).GetFiles().Select(x => x.Name).ToArray();
+        ResourcePacks = new DirectoryInfo(Path.Combine(CacheDirectory.FullName, ResourcePacksDirectory)).GetFiles().Select(x => x.Name).ToArray();
     }
 
     public void Generate()
+    {
+        // write all Mods, Configs, KubeJs, Shaders and Resourcepacks
+        // mods.json
+        // config/[all files]
+        // kubejs/[all files]
+        // shaderpacks.json
+        // resourcepacks.json
+    }
+
+    private void InternalRead()
     {
     }
 
