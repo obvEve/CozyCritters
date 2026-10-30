@@ -11,7 +11,7 @@ public static class Program
         new(CacheType.Shaders, "shaderpacks", StoredCacheType.FileName),
         new(CacheType.ResourcePacks, "resourcepacks", StoredCacheType.FileName)];
     
-    public static void Main(string[] args)
+    public static async Task Main(string[] args)
     {
         CacheController.ActiveModpackDirectory = GetModpackDirectoryCache(args);
 
@@ -38,6 +38,8 @@ public static class Program
                 CacheController.GenerateChangelog(version);
                 break;
         }
+
+        await Task.Delay(-1);
     }
 
     private static DirectoryInfo GetModpackDirectoryCache(string[] args)

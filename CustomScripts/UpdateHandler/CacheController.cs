@@ -4,7 +4,6 @@ public static class CacheController
 {
     private const string CozyCritterFolder = "CozyCritters";
     private const string LastKnownDirectoryCache = "LastKnownDirectoryCache.dat";
-    private const string ManifestFile = "manifest.json";
 
     public static DirectoryInfo CacheDirectory
     {
@@ -69,14 +68,13 @@ public static class CacheController
         
         ModpackCache cache = new(version, directory);
         
-        if (File.Exists(Path.Combine(directory.FullName, ManifestFile)))
+        if (directory.EnumerateFileSystemInfos().Any())
         {
             Console.WriteLine($"Cache for version {version} already exists.");
             return;
         }
 
         cache.Read();
-        // Generate Cache
     }
 
     public static void GenerateChangelog(Version newVersion)
@@ -89,20 +87,14 @@ public static class CacheController
             return;
         }
 
-        DirectoryInfo oldDirectory = GetDirectoryForVersion(oldVersion.Version);
         DirectoryInfo newDirectory = GetDirectoryForVersion(newVersion);
-        
-        if (File.Exists(Path.Combine(oldDirectory.FullName, ManifestFile)))
-        {
-            Console.WriteLine($"Cache for version {oldVersion.Version} already exists.");
-            return;
-        }
 
         if (!newDirectory.EnumerateFileSystemInfos().Any())
             SaveVersionCache(newVersion);
 
-        // Compare oldDirectory and newDirectory.
-        // Generate changelog.
+        // Compare oldDirectory and newDirectory
+        // Generate changelog
+        ModpackChanges.Generate(oldVersion, new ModpackCache(newVersion, GetDirectoryForVersion(newVersion))).GenerateMarkdownChangelog();
     }
     
     private static ModpackCache? GetLatestCachedVersion(Version? exclude = null)
