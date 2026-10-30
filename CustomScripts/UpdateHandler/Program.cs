@@ -50,7 +50,6 @@ public static class Program
         while (true)
         {
             Console.WriteLine("Please provide your current modpack directory!");
-
             string? input = Console.ReadLine()?.Trim().Trim('"');
 
             if (string.IsNullOrWhiteSpace(input) || !Directory.Exists(input))

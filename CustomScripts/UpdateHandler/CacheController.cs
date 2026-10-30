@@ -81,7 +81,7 @@ public static class CacheController
 
     public static void GenerateChangelog(Version newVersion)
     {
-        ModpackCache? oldVersion = GetLatestCachedVersion(newVersion);
+        ModpackCache? oldVersion = GetLatestCachedVersion(exclude: newVersion);
 
         if (oldVersion == null)
         {

@@ -2,7 +2,9 @@
 
 public class ModpackChanges
 {
-    public static void Generate()
+    public bool AnyChanges { get; set; }
+    
+    public static ModpackChanges Generate(ModpackCache oldVersion, ModpackCache newVersion)
     {
     }
 }
