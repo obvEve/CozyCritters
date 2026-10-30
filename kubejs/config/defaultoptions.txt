@@ -2,3 +2,5 @@ resourcePacks:["vanilla","mod_resources","moonlight:merged_pack","eatinganimatio
 
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.unknown
+
+key_key.inventorytweak.sort_inventory_key:key.mouse.middle
