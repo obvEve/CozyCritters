@@ -1,0 +1,30 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "4D8A9A985B95E1D2"
+	icon: {
+		id: "create:wrench"
+	}
+	id: "6A4326AB92D60E28"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "53871935A5E9783D"
+		tasks: [
+			{
+				id: "66FF1F1A45084DED"
+				item: { count: 1, id: "create:wrench" }
+				type: "item"
+			}
+			{
+				id: "2469047EF4568367"
+				item: { count: 1, id: "create:goggles" }
+				type: "item"
+			}
+		]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

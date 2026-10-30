@@ -1,0 +1,33 @@
+{
+	chapter.040951D584327E30.title: "Starting Out"
+	chapter.1A5028D753F1505F.title: "Storage"
+	chapter.6A4326AB92D60E28.title: "Create"
+	chapter_group.4D8A9A985B95E1D2.title: "The Basics"
+	quest.0E2AE23521A8364E.quest_desc: ["It's not Minecraft without chopping down your first tree!"]
+	quest.0E2AE23521A8364E.title: "Gather Wood"
+	quest.0EB62FAFB509BAFD.quest_desc: ["A portable crafting table"]
+	quest.1956BA33D413F3EB.quest_desc: ["&lSophisticated Storage&r has a lot of upgraded versions of the vanilla Chests, Barrels and Shulkers."]
+	quest.1956BA33D413F3EB.title: "Sophisticated Storage"
+	quest.39C3729722D0E468.title: "The Stone Age"
+	quest.46935628D94C993F.quest_desc: ["The vanilla options are quite limited, nothing much to say about that"]
+	quest.46935628D94C993F.title: "Vanilla"
+	quest.4C956F8F630A8BDA.title: "Functional Storage"
+	quest.53871935A5E9783D.quest_desc: ["Get your trusty wrench and goggles!"]
+	quest.6B1E9885551E4E9C.quest_desc: ["In the early-game, your simplest way to farm is with &lBotany Pots&r"]
+	quest.6B1E9885551E4E9C.title: "Early Farming"
+	quest.76A814D87B2343D5.quest_desc: [
+		"Tom's Simple Storage "
+		"Using the &lInventory Connector&r connected to your storages (eg Chests!) and a &lStorage Terminal&r to access it."
+		"{@pagebreak}"
+		"[ \"You can use \", { \"text\": \"this video\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://youtu.be/nW5ElcWiC3c\" } }, \" as a guide\" ]"
+	]
+	quest.76A814D87B2343D5.title: "Tom's Simple Storage"
+	quest.7B50191A71843D67.quest_desc: ["Get yourself a backpack to carry all that stuff of yours!"]
+	reward_table.233B1C8938F49FE0.title: "foods"
+	reward_table.5C7239C29628CDF0.title: "common"
+	task.34E22E1F95F6B475.title: "Any #c:cobblestones"
+	task.3F3117121C1F9FDD.title: "Any #functionalstorage:drawer"
+	task.42C7AA4122688563.title: "Any #minecraft:logs"
+	task.4390183D1107C1E2.title: "Any #sophisticatedstorage:all_storage"
+	task.72F618F2090E401F.title: "Any #botanypots:botany_pots"
+}

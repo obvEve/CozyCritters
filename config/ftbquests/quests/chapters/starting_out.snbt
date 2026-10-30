@@ -1,0 +1,102 @@
+{
+	autofocus_id: "7B50191A71843D67"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "starting_out"
+	group: "4D8A9A985B95E1D2"
+	icon: {
+		id: "minecraft:oak_log"
+	}
+	id: "040951D584327E30"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:oak_log"
+			}
+			id: "0E2AE23521A8364E"
+			rewards: [
+				{
+					count: 16
+					id: "7B7A87E8997EF143"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23F376930717F189"
+					table_id: 2538654190645059552L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "42C7AA4122688563"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E2AE23521A8364E"]
+			id: "39C3729722D0E468"
+			tasks: [
+				{
+					id: "34E22E1F95F6B475"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:cobblestones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "3F448DBF101E9ADC"
+					item: { count: 1, id: "minecraft:stone_axe" }
+					type: "item"
+				}
+				{
+					id: "042CE9B5286B5E84"
+					item: { count: 1, id: "minecraft:stone_pickaxe" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E2AE23521A8364E"]
+			id: "7B50191A71843D67"
+			tasks: [{
+				id: "023FC38C60E5F083"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E2AE23521A8364E"]
+			id: "6B1E9885551E4E9C"
+			tasks: [{
+				id: "72F618F2090E401F"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(botanypots:botany_pots)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0E2AE23521A8364E"]
+			id: "0EB62FAFB509BAFD"
+			tasks: [{
+				id: "69A9930235F6822F"
+				item: { count: 1, id: "crafting_on_a_stick:crafting_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+	]
+}

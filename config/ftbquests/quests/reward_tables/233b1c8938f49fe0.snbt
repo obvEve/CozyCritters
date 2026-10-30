@@ -1,0 +1,79 @@
+{
+	id: "233B1C8938F49FE0"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 5
+			id: "22492B98C4BF47B0"
+			item: {
+				count: 1
+				id: "farmersdelight:stuffed_potato"
+			}
+		}
+		{
+			count: 5
+			id: "73978C839360FD7A"
+			item: {
+				count: 1
+				id: "farmersdelight:egg_sandwich"
+			}
+		}
+		{
+			count: 5
+			id: "1F02FA878593AD02"
+			item: {
+				count: 1
+				id: "farmersdelight:chicken_sandwich"
+			}
+		}
+		{
+			count: 3
+			id: "7995BFF781EB117C"
+			item: {
+				count: 1
+				id: "aquaculturedelight:unusual_fish_soup"
+			}
+		}
+		{
+			count: 8
+			id: "16C460C978A60C10"
+			item: {
+				count: 1
+				id: "aquaculturedelight:catfish_barbecue"
+			}
+		}
+		{
+			count: 3
+			id: "39B12015B38FBC5C"
+			item: {
+				count: 1
+				id: "aquaculturedelight:tuna_spaghetti"
+			}
+		}
+		{
+			count: 3
+			id: "59DB72DED08271FA"
+			item: {
+				count: 1
+				id: "aquaculturedelight:halibut_with_tartar_sauce"
+			}
+		}
+		{
+			count: 3
+			id: "387CB51FC218B8B9"
+			item: {
+				count: 1
+				id: "aquaculturedelight:large_fish_with_vegetables"
+			}
+		}
+		{
+			count: 3
+			id: "460BA4CA3D83A23E"
+			item: {
+				count: 1
+				id: "farmersdelight:vegetable_noodles"
+			}
+		}
+	]
+}
