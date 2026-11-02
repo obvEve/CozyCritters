@@ -1,0 +1,282 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "locked"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "supplementaries:item/key"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "7174B12700ADF0AA"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2EFE8B4BF34FDC3E"
+			tasks: [
+				{
+					id: "4EECD8F50A93BBCE"
+					item: { count: 1, id: "minecraft:glowstone" }
+					type: "item"
+				}
+				{
+					dimension: "aether:the_aether"
+					icon: {
+						id: "minecraft:glowstone"
+					}
+					id: "780DFDCC7DB7569C"
+					type: "dimension"
+				}
+			]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "5B7049D3646B763E"
+			tasks: [{
+				id: "39BE138DF3807AD9"
+				item: { count: 1, id: "sereneseasons:calendar" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			id: "266E04FF005A357D"
+			tasks: [{
+				id: "3F11AAA892729B4B"
+				item: { count: 1, id: "rechiseled:chisel" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			id: "5A6455404A24EE65"
+			tasks: [{
+				id: "31B0A6FCFEA51540"
+				item: { count: 1, id: "sawmill:sawmill" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			id: "28406128830841D5"
+			tasks: [{
+				id: "22C6F9FA839D7AD5"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:hoes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			id: "3B359FA3E0FC00CF"
+			tasks: [{
+				id: "51CACCA826092584"
+				item: { count: 1, id: "animal_feeding_trough:feeding_trough" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			id: "71F56D82024CCC5F"
+			tasks: [{
+				id: "4B9B8B0D0A7F393B"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(artifacts:artifacts)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			id: "66BF0D0861A0295A"
+			tasks: [{
+				id: "70BF46A4EDBADBA9"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(comforts:sleeping_bags)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "1E128D9080CD5310"
+			tasks: [{
+				id: "203FCB0E87802A4F"
+				item: { count: 1, id: "bountiful:bountyboard" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			id: "39CC0225F0BB1ECC"
+			tasks: [{
+				id: "2B08760707D36F0B"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(constructionstick:construction_sticks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			id: "08C4F0461A826F76"
+			tasks: [{
+				id: "7DF1B1F3E4A8CF55"
+				item: { count: 1, id: "framedblocks:framed_cube" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			id: "41CE401FDD2474F7"
+			tasks: [{
+				id: "335699606B564788"
+				item: { count: 1, id: "handcrafted:hammer" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			id: "6BA8D95959E8A4ED"
+			tasks: [{
+				id: "3DB1D6F1E3A69186"
+				item: { count: 1, id: "mcwbridges:crimson_log_bridge_middle" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			id: "5B3BA7004F46862B"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "46AC22F0BB792DEF"
+				type: "dimension"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			id: "39D3EB16151C8753"
+			tasks: [{
+				id: "31A96AFA6F42B371"
+				item: { count: 1, id: "minecraft:carrot" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			id: "73A8EDC909FAC340"
+			tasks: [{
+				id: "0C11CE44D74E4817"
+				item: { count: 1, id: "immersive_paintings:painting" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			id: "7019328FE555F310"
+			tasks: [{
+				id: "44D0C092629056F1"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -6.0d
+		}
+		{
+			id: "01D51A5C4488D769"
+			tasks: [{
+				entity: "spider_overhaul:taiga_spider"
+				entityTypeTag: "spider_overhaul:spiders"
+				id: "3A6A0F6E8B11E40B"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			id: "2A39876DDA7B7F4D"
+			tasks: [{
+				entity: "endermanoverhaul:spirit"
+				entityTypeTag: "endermanoverhaul:ender_pearls"
+				id: "7B29662D34E8471C"
+				type: "kill"
+				value: 100L
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			id: "6DFAF0BBB8A3D2F8"
+			tasks: [{
+				entity: "creeperoverhaul:bamboo_creeper"
+				entityTypeTag: "c:creepers"
+				id: "74561F837FEBCA89"
+				type: "kill"
+				value: 100L
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			id: "699B5D92CF746A21"
+			tasks: [{
+				id: "05F0B55545DB93C0"
+				item: { count: 1, id: "solcarrot:food_book" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -6.0d
+		}
+		{
+			id: "10F93CDCE1BB028F"
+			tasks: [
+				{
+					id: "2735F6723490C059"
+					item: { count: 1, id: "minecraft:basalt" }
+					type: "item"
+				}
+				{
+					id: "5932B3BD1DF1684C"
+					item: { count: 1, id: "minecraft:obsidian" }
+					type: "item"
+				}
+				{
+					id: "5CE273F452475229"
+					item: { count: 1, id: "minecraft:stone" }
+					type: "item"
+				}
+				{
+					id: "7161D0B3F9408345"
+					item: { count: 1, id: "minecraft:cobblestone" }
+					type: "item"
+				}
+				{
+					id: "1ED82969F7ABF5E1"
+					item: { count: 1, id: "create:scoria" }
+					type: "item"
+				}
+				{
+					id: "234D87A9AE079AAB"
+					item: { count: 1, id: "create:limestone" }
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: -4.5d
+		}
+	]
+}

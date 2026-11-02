@@ -60,11 +60,18 @@
 		{
 			dependencies: ["46935628D94C993F"]
 			id: "4C956F8F630A8BDA"
-			tasks: [{
-				id: "3F3117121C1F9FDD"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(functionalstorage:drawer)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3F3117121C1F9FDD"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(functionalstorage:drawer)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "1A0F581767FC8EB1"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(functionalstorage:fluid_drawer)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
 			x: 2.5d
 			y: -1.5d
 		}

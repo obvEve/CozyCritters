@@ -1,20 +1,47 @@
 {
 	chapter.040951D584327E30.title: "Starting Out"
 	chapter.1A5028D753F1505F.title: "Storage"
+	chapter.37AC90CE9479F587.title: "Tips n Tricks"
 	chapter.6A4326AB92D60E28.title: "Create"
-	chapter_group.4D8A9A985B95E1D2.title: "The Basics"
+	chapter.7174B12700ADF0AA.title: "Locked"
+	chapter.777538A18EF1A230.title: "Building Tricks"
+	chapter_group.4D8A9A985B95E1D2.title: "Progression"
 	quest.0E2AE23521A8364E.quest_desc: ["It's not Minecraft without chopping down your first tree!"]
 	quest.0E2AE23521A8364E.title: "Gather Wood"
 	quest.0EB62FAFB509BAFD.quest_desc: ["A portable crafting table"]
+	quest.10F93CDCE1BB028F.quest_desc: [
+		"An easy way to get a lot of those common stones"
+		""
+		"Obsidian requires constant water/lava supply alongside heating"
+	]
+	quest.10F93CDCE1BB028F.title: "Create: Generator"
 	quest.1956BA33D413F3EB.quest_desc: ["&lSophisticated Storage&r has a lot of upgraded versions of the vanilla Chests, Barrels and Shulkers."]
 	quest.1956BA33D413F3EB.title: "Sophisticated Storage"
+	quest.28406128830841D5.quest_desc: [
+		"Crops grow faster during rain!"
+		""
+		"You can right click to harvest easily!"
+	]
+	quest.28406128830841D5.title: "Farming"
+	quest.2EFE8B4BF34FDC3E.quest_desc: ["Glowstone + Water bucket"]
+	quest.2EFE8B4BF34FDC3E.title: "The Aether"
 	quest.39C3729722D0E468.title: "The Stone Age"
+	quest.39D3EB16151C8753.quest_desc: ["Eating rewards you with more hearts."]
+	quest.39D3EB16151C8753.title: "Spice of Life"
+	quest.3B359FA3E0FC00CF.title: "Automatic Breeding"
+	quest.41CE401FDD2474F7.quest_desc: [""]
+	quest.41CE401FDD2474F7.title: "Handcrafted"
 	quest.46935628D94C993F.quest_desc: ["The vanilla options are quite limited, nothing much to say about that"]
 	quest.46935628D94C993F.title: "Vanilla"
+	quest.4C956F8F630A8BDA.quest_desc: ["Large-mass storage of specific items"]
 	quest.4C956F8F630A8BDA.title: "Functional Storage"
 	quest.53871935A5E9783D.quest_desc: ["Get your trusty wrench and goggles!"]
+	quest.5A6455404A24EE65.title: "Wooden Stonecutter"
+	quest.5B7049D3646B763E.title: "Serene Seasons"
 	quest.6B1E9885551E4E9C.quest_desc: ["In the early-game, your simplest way to farm is with &lBotany Pots&r"]
 	quest.6B1E9885551E4E9C.title: "Early Farming"
+	quest.71F56D82024CCC5F.title: "Artifacts"
+	quest.73A8EDC909FAC340.title: "Immersive Paintings"
 	quest.76A814D87B2343D5.quest_desc: [
 		"Tom's Simple Storage "
 		"Using the &lInventory Connector&r connected to your storages (eg Chests!) and a &lStorage Terminal&r to access it."
@@ -25,9 +52,18 @@
 	quest.7B50191A71843D67.quest_desc: ["Get yourself a backpack to carry all that stuff of yours!"]
 	reward_table.233B1C8938F49FE0.title: "foods"
 	reward_table.5C7239C29628CDF0.title: "common"
+	task.1A0F581767FC8EB1.title: "Any #functionalstorage:fluid_drawer"
+	task.22C6F9FA839D7AD5.title: "Any #minecraft:hoes"
+	task.2B08760707D36F0B.title: "Any #constructionstick:construction_sticks"
 	task.34E22E1F95F6B475.title: "Any #c:cobblestones"
+	task.3DB1D6F1E3A69186.title: "Macaw's"
 	task.3F3117121C1F9FDD.title: "Any #functionalstorage:drawer"
 	task.42C7AA4122688563.title: "Any #minecraft:logs"
 	task.4390183D1107C1E2.title: "Any #sophisticatedstorage:all_storage"
+	task.44D0C092629056F1.title: "Female Gender Mod"
+	task.46AC22F0BB792DEF.title: "Visit The End "
+	task.4B9B8B0D0A7F393B.title: "Any #artifacts:artifacts"
+	task.70BF46A4EDBADBA9.title: "Any #comforts:sleeping_bags"
 	task.72F618F2090E401F.title: "Any #botanypots:botany_pots"
+	task.780DFDCC7DB7569C.title: "Visit The Aether"
 }
