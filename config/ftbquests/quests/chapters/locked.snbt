@@ -168,11 +168,18 @@
 		}
 		{
 			id: "39D3EB16151C8753"
-			tasks: [{
-				id: "31A96AFA6F42B371"
-				item: { count: 1, id: "minecraft:carrot" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "31A96AFA6F42B371"
+					item: { count: 1, id: "minecraft:carrot" }
+					type: "item"
+				}
+				{
+					id: "560FD16265C8B25A"
+					item: { count: 1, id: "solcarrot:food_book" }
+					type: "item"
+				}
+			]
 			x: -9.0d
 			y: -1.5d
 		}
@@ -232,16 +239,6 @@
 			y: -6.0d
 		}
 		{
-			id: "699B5D92CF746A21"
-			tasks: [{
-				id: "05F0B55545DB93C0"
-				item: { count: 1, id: "solcarrot:food_book" }
-				type: "item"
-			}]
-			x: -11.5d
-			y: -6.0d
-		}
-		{
 			id: "10F93CDCE1BB028F"
 			tasks: [
 				{
@@ -277,6 +274,26 @@
 			]
 			x: -11.5d
 			y: -4.5d
+		}
+		{
+			id: "03702C2E46776AE0"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "03EEA265D48B665D"
+				type: "dimension"
+			}]
+			x: -11.5d
+			y: -3.0d
+		}
+		{
+			id: "43E303841FEF07AC"
+			tasks: [{
+				id: "570C32DFA57268C0"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:pickaxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.5d
 		}
 	]
 }

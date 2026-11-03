@@ -10,21 +10,63 @@
 	images: [ ]
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		id: "53871935A5E9783D"
-		tasks: [
-			{
-				id: "66FF1F1A45084DED"
-				item: { count: 1, id: "create:wrench" }
+	quests: [
+		{
+			dependencies: ["617AB58B5946F488"]
+			id: "53871935A5E9783D"
+			rewards: [{
+				count: 4
+				id: "677DD61BA5C89490"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
 				type: "item"
-			}
-			{
-				id: "2469047EF4568367"
-				item: { count: 1, id: "create:goggles" }
+			}]
+			tasks: [
+				{
+					id: "66FF1F1A45084DED"
+					item: { count: 1, id: "create:wrench" }
+					type: "item"
+				}
+				{
+					id: "2469047EF4568367"
+					item: { count: 1, id: "create:goggles" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "617AB58B5946F488"
+			rewards: [{
+				count: 31
+				id: "54B5B5C201F90582"
+				item: {
+					count: 1
+					id: "minecraft:andesite"
+				}
 				type: "item"
-			}
-		]
-		x: 0.0d
-		y: 0.0d
-	}]
+			}]
+			tasks: [{
+				id: "36C174ECDB340783"
+				item: { count: 1, id: "minecraft:andesite" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["617AB58B5946F488"]
+			id: "2DB282B54FC3E837"
+			tasks: [{
+				id: "7F24A0F06C7C57B8"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
 }

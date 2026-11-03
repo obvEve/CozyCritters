@@ -6,6 +6,13 @@
  * Refer to https://kubejs.com/wiki/tutorials/recipes
 */
 
+// [output, dye, ingredient]
+const bunkDying = [
+    ['biomesoplenty:black_sand', '#c:dyes/black', '#minecraft:sand'],
+    ['biomesoplenty:orange_sand', '#c:dyes/orange', '#minecraft:sand'],
+    ['biomesoplenty:white_sand', '#c:dyes/white', '#minecraft:sand']
+]
+
 // Listen for the "recipes" server event.
 ServerEvents.recipes(event => {
     // Disable certain recipes
@@ -18,4 +25,18 @@ ServerEvents.recipes(event => {
     event.recipes.create.mixing('minecraft:basalt', [Fluid.of('minecraft:lava', 100), 'minecraft:blue_ice', 'minecraft:soul_soil']);
     event.recipes.create.mixing('create:scoria', [Fluid.of('create:chocolate', 100), Fluid.of('minecraft:lava', 100)]);
     event.recipes.create.mixing('create:limestone', [Fluid.of('create:honey', 100), Fluid.of('minecraft:lava', 100)]);
+
+    // Create - Bulk Dying
+    bunkDying.forEach(([output, dye, ingredient]) => {
+        event.shaped(Item.of(output, 8), 
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            A: ingredient,
+            B: dye
+        })
+    })
 })

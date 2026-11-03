@@ -6,15 +6,16 @@
 	chapter.7174B12700ADF0AA.title: "Locked"
 	chapter.777538A18EF1A230.title: "Building Tricks"
 	chapter_group.4D8A9A985B95E1D2.title: "Progression"
+	file.0000000000000001.title: "Cozy Critters"
 	quest.0E2AE23521A8364E.quest_desc: ["It's not Minecraft without chopping down your first tree!"]
 	quest.0E2AE23521A8364E.title: "Gather Wood"
 	quest.0EB62FAFB509BAFD.quest_desc: ["A portable crafting table"]
 	quest.10F93CDCE1BB028F.quest_desc: [
 		"An easy way to get a lot of those common stones"
 		""
-		"Obsidian requires constant water/lava supply alongside heating"
+		"Obsidian and Stone require heating"
 	]
-	quest.10F93CDCE1BB028F.title: "Create: Generator"
+	quest.10F93CDCE1BB028F.title: "Create: Generators"
 	quest.1956BA33D413F3EB.quest_desc: ["&lSophisticated Storage&r has a lot of upgraded versions of the vanilla Chests, Barrels and Shulkers."]
 	quest.1956BA33D413F3EB.title: "Sophisticated Storage"
 	quest.28406128830841D5.quest_desc: [
@@ -23,25 +24,58 @@
 		"You can right click to harvest easily!"
 	]
 	quest.28406128830841D5.title: "Farming"
+	quest.2DB282B54FC3E837.quest_desc: [
+		"Andesite Alloy is a primary crafting ingredient in &6Create,&r and the main reason you collected that andesite in the first place."
+		""
+		"You can make it with just 2 andesite and either 2 iron nuggets or 2 zink nuggets."
+	]
 	quest.2EFE8B4BF34FDC3E.quest_desc: ["Glowstone + Water bucket"]
 	quest.2EFE8B4BF34FDC3E.title: "The Aether"
+	quest.39C3729722D0E468.quest_desc: [
+		"With your new tools you can use &lFTB-Ultimine&r to mine up to 16 blocks."
+		""
+		"This also includes till-ing dirt, or even harvesting crops!"
+	]
 	quest.39C3729722D0E468.title: "The Stone Age"
 	quest.39D3EB16151C8753.quest_desc: ["Eating rewards you with more hearts."]
 	quest.39D3EB16151C8753.title: "Spice of Life"
 	quest.3B359FA3E0FC00CF.title: "Automatic Breeding"
 	quest.41CE401FDD2474F7.quest_desc: [""]
 	quest.41CE401FDD2474F7.title: "Handcrafted"
+	quest.43E303841FEF07AC.quest_desc: [
+		"You can use &lFTB-Ultimine&r to mine up to 16 blocks."
+		""
+		"This also includes till-ing dirt, or even harvesting crops!"
+	]
 	quest.46935628D94C993F.quest_desc: ["The vanilla options are quite limited, nothing much to say about that"]
 	quest.46935628D94C993F.title: "Vanilla"
 	quest.4C956F8F630A8BDA.quest_desc: ["Large-mass storage of specific items"]
 	quest.4C956F8F630A8BDA.title: "Functional Storage"
-	quest.53871935A5E9783D.quest_desc: ["Get your trusty wrench and goggles!"]
+	quest.53871935A5E9783D.quest_desc: [
+		"Get your trusty &6Wrench&r and &6Goggles!&r"
+		""
+		"I'll even refund your gold."
+	]
+	quest.53871935A5E9783D.title: "Engineer's Degree"
 	quest.5A6455404A24EE65.title: "Wooden Stonecutter"
 	quest.5B7049D3646B763E.title: "Serene Seasons"
+	quest.617AB58B5946F488.quest_desc: [
+		"You've probably heard of &6Create&r by now, with how popular its been for the past few years."
+		""
+		"It's a controversial, possibly even over-saturated mod... and yes it's in this pack too. "
+		""
+		"It's primarily in the pack due to how stunning the visuals are... especially the moving parts. Did I mention the Elevators?"
+		""
+		"Andddd it's been integrated with some extra stuff like easy cobblestone and a lot of other things!"
+		""
+		"{@pagebreak}"
+		"Anyway, with all that being said... Get yourself lots of andesite to begin your &6Create&r journey."
+	]
 	quest.6B1E9885551E4E9C.quest_desc: ["In the early-game, your simplest way to farm is with &lBotany Pots&r"]
 	quest.6B1E9885551E4E9C.title: "Early Farming"
 	quest.71F56D82024CCC5F.title: "Artifacts"
 	quest.73A8EDC909FAC340.title: "Immersive Paintings"
+	quest.73CC61A9F5298076.title: "The Metal Age"
 	quest.76A814D87B2343D5.quest_desc: [
 		"Tom's Simple Storage "
 		"Using the &lInventory Connector&r connected to your storages (eg Chests!) and a &lStorage Terminal&r to access it."
@@ -49,8 +83,12 @@
 		"[ \"You can use \", { \"text\": \"this video\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://youtu.be/nW5ElcWiC3c\" } }, \" as a guide\" ]"
 	]
 	quest.76A814D87B2343D5.title: "Tom's Simple Storage"
-	quest.7B50191A71843D67.quest_desc: ["Get yourself a backpack to carry all that stuff of yours!"]
-	reward_table.233B1C8938F49FE0.title: "foods"
+	quest.7B61B6507F820511.quest_desc: [
+		"Ever needed more storage on your player? Well need no more!"
+		""
+		"With &lSophisticated Backpacks&r you can have an upgradable backpack that you can also wear in your curios slot."
+	]
+	reward_table.233B1C8938F49FE0.title: "Food Rewards"
 	reward_table.5C7239C29628CDF0.title: "common"
 	task.1A0F581767FC8EB1.title: "Any #functionalstorage:fluid_drawer"
 	task.22C6F9FA839D7AD5.title: "Any #minecraft:hoes"
@@ -63,6 +101,7 @@
 	task.44D0C092629056F1.title: "Female Gender Mod"
 	task.46AC22F0BB792DEF.title: "Visit The End "
 	task.4B9B8B0D0A7F393B.title: "Any #artifacts:artifacts"
+	task.570C32DFA57268C0.title: "Any #minecraft:pickaxes"
 	task.70BF46A4EDBADBA9.title: "Any #comforts:sleeping_bags"
 	task.72F618F2090E401F.title: "Any #botanypots:botany_pots"
 	task.780DFDCC7DB7569C.title: "Visit The Aether"

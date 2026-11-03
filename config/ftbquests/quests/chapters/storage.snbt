@@ -75,5 +75,15 @@
 			x: 2.5d
 			y: -1.5d
 		}
+		{
+			id: "7B61B6507F820511"
+			tasks: [{
+				id: "38955BA098E1A6C6"
+				item: { components: { "sophisticatedcore:number_of_inventory_slots": 27, "sophisticatedcore:number_of_upgrade_slots": 1 }, count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
 	]
 }
