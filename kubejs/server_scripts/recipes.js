@@ -8,5 +8,14 @@
 
 // Listen for the "recipes" server event.
 ServerEvents.recipes(event => {
+    // Disable certain recipes
     global.disabledOutputRecipes.forEach(recipe => { event.remove({ output: recipe }) })
+
+    // Create
+    event.recipes.create.mixing('minecraft:cobblestone', [Fluid.of('minecraft:water', 100), Fluid.of('minecraft:lava', 100)]);
+    event.recipes.create.mixing('minecraft:stone', [Fluid.of('minecraft:water', 100), Fluid.of('minecraft:lava', 100)]).heated();
+    event.recipes.create.mixing('minecraft:obsidian', [Fluid.of('minecraft:water', 250), Fluid.of('minecraft:lava', 250)]).heated();
+    event.recipes.create.mixing('minecraft:basalt', [Fluid.of('minecraft:lava', 100), 'minecraft:blue_ice', 'minecraft:soul_soil']);
+    event.recipes.create.mixing('create:scoria', [Fluid.of('create:chocolate', 100), Fluid.of('minecraft:lava', 100)]);
+    event.recipes.create.mixing('create:limestone', [Fluid.of('create:honey', 100), Fluid.of('minecraft:lava', 100)]);
 })
