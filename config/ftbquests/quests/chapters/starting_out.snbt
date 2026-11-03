@@ -42,11 +42,18 @@
 					type: "random"
 				}
 			]
-			tasks: [{
-				id: "42C7AA4122688563"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "42C7AA4122688563"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "4007E13EEAD73D6D"
+					item: { count: 1, id: "minecraft:crafting_table" }
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -70,18 +77,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 2.0d
 			y: 0.0d
-		}
-		{
-			id: "6B1E9885551E4E9C"
-			tasks: [{
-				id: "72F618F2090E401F"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(botanypots:botany_pots)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 2.5d
 		}
 		{
 			dependencies: ["0E2AE23521A8364E"]
@@ -92,20 +89,23 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
 				"39C3729722D0E468"
 				"69237D1E88EC307D"
 			]
+			icon: {
+				id: "minecraft:iron_ingot"
+			}
 			id: "73CC61A9F5298076"
 			tasks: [{
 				id: "7DF28637101D2BA9"
-				item: { count: 1, id: "minecraft:iron_ingot" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -116,8 +116,18 @@
 				item: { count: 1, id: "minecraft:furnace" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: 2.0d
+		}
+		{
+			id: "4E39F9F21450980A"
+			tasks: [{
+				id: "07F8D9343411FA3F"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
 		}
 	]
 }

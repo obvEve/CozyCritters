@@ -1,12 +1,21 @@
 {
 	chapter.040951D584327E30.title: "Starting Out"
 	chapter.1A5028D753F1505F.title: "Storage"
+	chapter.20454E54AE8929BC.title: "Farming Life"
 	chapter.37AC90CE9479F587.title: "Tips n Tricks"
 	chapter.6A4326AB92D60E28.title: "Create"
 	chapter.7174B12700ADF0AA.title: "Locked"
 	chapter.777538A18EF1A230.title: "Building Tricks"
 	chapter_group.4D8A9A985B95E1D2.title: "Progression"
 	file.0000000000000001.title: "Cozy Critters"
+	quest.0AEA5CA57AF6ECAB.quest_desc: [
+		"The beginning of your farming life starts with a home and of course your trusty hoe."
+		""
+		"&2Crops&r grow faster during the rain."
+		""
+		"You can also right-click to harvest!"
+	]
+	quest.0AEA5CA57AF6ECAB.title: "Farming Life Begins"
 	quest.0E2AE23521A8364E.quest_desc: ["It's not Minecraft without chopping down your first tree!"]
 	quest.0E2AE23521A8364E.title: "Gather Wood"
 	quest.0EB62FAFB509BAFD.quest_desc: ["A portable crafting table"]
@@ -27,7 +36,7 @@
 	quest.2DB282B54FC3E837.quest_desc: [
 		"Andesite Alloy is a primary crafting ingredient in &6Create,&r and the main reason you collected that andesite in the first place."
 		""
-		"You can make it with just 2 andesite and either 2 iron nuggets or 2 zink nuggets."
+		"You can make it with just 2 andesite and either 2 Iron Nuggets or 2 Zinc Nuggets. In the future you'll only need 1 of each!"
 	]
 	quest.2EFE8B4BF34FDC3E.quest_desc: ["Glowstone + Water bucket"]
 	quest.2EFE8B4BF34FDC3E.title: "The Aether"
@@ -47,18 +56,35 @@
 		""
 		"This also includes till-ing dirt, or even harvesting crops!"
 	]
-	quest.46935628D94C993F.quest_desc: ["The vanilla options are quite limited, nothing much to say about that"]
-	quest.46935628D94C993F.title: "Vanilla"
+	quest.46935628D94C993F.quest_desc: ["The vanilla chest is limited to just 27 slots, allowing the creation of a double chest."]
+	quest.46935628D94C993F.title: "Chests"
+	quest.47E2D16AC726ED4E.quest_desc: [
+		"Botany Pots is a simple mod, allowing you to have a plot of farmland in a block."
+		""
+		"The base version requires you to manually harvest."
+		""
+		"The hopper version allows automatic harvesting."
+		""
+		"Andd the waxed version will simply show the crop in its fully grown state, without being farmable."
+	]
+	quest.47E2D16AC726ED4E.title: "Botany Pots"
 	quest.4C956F8F630A8BDA.quest_desc: ["Large-mass storage of specific items"]
 	quest.4C956F8F630A8BDA.title: "Functional Storage"
 	quest.53871935A5E9783D.quest_desc: [
-		"Get your trusty &6Wrench&r and &6Goggles!&r"
+		"Get your trusty &6Wrench&r and &6Goggles!&r. I'll even refund the gold."
 		""
-		"I'll even refund your gold."
+		"&6Wrench&r can be used to pick-up &6Create&r blocks or to change the state (and even rotation!) of &6Create&r related things."
+		""
+		"The &6Engineer's Goggles&r when equipped will show you useful information about your &6Create&r machines"
 	]
 	quest.53871935A5E9783D.title: "Engineer's Degree"
 	quest.5A6455404A24EE65.title: "Wooden Stonecutter"
 	quest.5B7049D3646B763E.title: "Serene Seasons"
+	quest.5EDA559F51E519F5.quest_desc: [
+		"You'll want to convert some &#B36E03Logs&r into Andesite Casings. You can do this by stripping some logs and right-clicking them with your Andesite Alloy."
+		""
+		"This will be used for making your machines."
+	]
 	quest.617AB58B5946F488.quest_desc: [
 		"You've probably heard of &6Create&r by now, with how popular its been for the past few years."
 		""
@@ -71,8 +97,7 @@
 		"{@pagebreak}"
 		"Anyway, with all that being said... Get yourself lots of andesite to begin your &6Create&r journey."
 	]
-	quest.6B1E9885551E4E9C.quest_desc: ["In the early-game, your simplest way to farm is with &lBotany Pots&r"]
-	quest.6B1E9885551E4E9C.title: "Early Farming"
+	quest.69237D1E88EC307D.quest_desc: ["You're gonna want to smell all those metals you find."]
 	quest.71F56D82024CCC5F.title: "Artifacts"
 	quest.73A8EDC909FAC340.title: "Immersive Paintings"
 	quest.73CC61A9F5298076.title: "The Metal Age"
@@ -88,12 +113,14 @@
 		""
 		"With &lSophisticated Backpacks&r you can have an upgradable backpack that you can also wear in your curios slot."
 	]
+	quest.7B61B6507F820511.title: "Sophisticated Backpacks"
 	reward_table.233B1C8938F49FE0.title: "Food Rewards"
 	reward_table.5C7239C29628CDF0.title: "common"
 	task.1A0F581767FC8EB1.title: "Any #functionalstorage:fluid_drawer"
 	task.22C6F9FA839D7AD5.title: "Any #minecraft:hoes"
 	task.2B08760707D36F0B.title: "Any #constructionstick:construction_sticks"
 	task.34E22E1F95F6B475.title: "Any #c:cobblestones"
+	task.37803294B8BC0BC1.title: "Any #minecraft:hoes"
 	task.3DB1D6F1E3A69186.title: "Macaw's"
 	task.3F3117121C1F9FDD.title: "Any #functionalstorage:drawer"
 	task.42C7AA4122688563.title: "Any #minecraft:logs"
@@ -103,6 +130,7 @@
 	task.4B9B8B0D0A7F393B.title: "Any #artifacts:artifacts"
 	task.570C32DFA57268C0.title: "Any #minecraft:pickaxes"
 	task.70BF46A4EDBADBA9.title: "Any #comforts:sleeping_bags"
-	task.72F618F2090E401F.title: "Any #botanypots:botany_pots"
 	task.780DFDCC7DB7569C.title: "Visit The Aether"
+	task.7C0E7AADA12A135A.title: "Any #botanypots:botany_pots"
+	task.7DF28637101D2BA9.title: "Any #c:ingots"
 }

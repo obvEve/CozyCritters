@@ -68,5 +68,16 @@
 			x: 2.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["2DB282B54FC3E837"]
+			id: "5EDA559F51E519F5"
+			tasks: [{
+				id: "6EB968CF4CCDBFD7"
+				item: { count: 1, id: "create:andesite_casing" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
 	]
 }

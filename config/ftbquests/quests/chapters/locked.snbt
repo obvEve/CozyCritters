@@ -217,8 +217,7 @@
 		{
 			id: "2A39876DDA7B7F4D"
 			tasks: [{
-				entity: "endermanoverhaul:spirit"
-				entityTypeTag: "endermanoverhaul:ender_pearls"
+				entity: "endermanoverhaul:end_enderman"
 				id: "7B29662D34E8471C"
 				type: "kill"
 				value: 100L
