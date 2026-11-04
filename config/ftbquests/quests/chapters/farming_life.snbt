@@ -13,11 +13,19 @@
 	quests: [
 		{
 			id: "0AEA5CA57AF6ECAB"
-			tasks: [{
-				id: "37803294B8BC0BC1"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:hoes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "37803294B8BC0BC1"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:hoes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					advancement: "minecraft:husbandry/plant_seed"
+					criterion: ""
+					id: "2F71B6963870D9E1"
+					type: "advancement"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -31,6 +39,38 @@
 			}]
 			x: 0.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["0AEA5CA57AF6ECAB"]
+			id: "6CCF2F8D9A1FE585"
+			tasks: [{
+				id: "7910456A2666B493"
+				item: { count: 1, id: "solcarrot:food_book" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0AEA5CA57AF6ECAB"]
+			id: "52F50AAC2896AAE5"
+			tasks: [{
+				id: "41E2098490589FA2"
+				item: { count: 1, id: "animal_feeding_trough:feeding_trough" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "319BB08C3FA0C59E"
+			tasks: [{
+				id: "51FA3FE4C5EE44E2"
+				item: { count: 1, id: "sereneseasons:calendar" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
 		}
 	]
 }

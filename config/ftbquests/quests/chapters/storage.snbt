@@ -12,6 +12,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["0E2AE23521A8364E"]
 			id: "46935628D94C993F"
 			tasks: [{
 				id: "022DD36BC0BC75D6"
@@ -78,6 +79,17 @@
 			}]
 			x: -2.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["46935628D94C993F"]
+			id: "451D7EBA68E43196"
+			tasks: [{
+				id: "241C348C49473728"
+				item: { count: 1, id: "minecraft:barrel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
 		}
 	]
 }

@@ -1,0 +1,50 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_aether"
+	group: "15D403DB0F8BE048"
+	icon: {
+		id: "aether:aether_grass_block"
+	}
+	id: "0EE871FD96D84599"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "aether:aether_portal_frame"
+			}
+			id: "56E0655BE9A97C2C"
+			tasks: [
+				{
+					count: 10L
+					id: "10D200CB8464F55B"
+					item: { count: 1, id: "minecraft:glowstone" }
+					type: "item"
+				}
+				{
+					id: "1567A2E9CE10CB00"
+					item: { count: 1, id: "minecraft:water_bucket" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["56E0655BE9A97C2C"]
+			icon: {
+				id: "aether:aether_grass_block"
+			}
+			id: "16432248CA60070F"
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "643F9763786EE60C"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+	]
+}

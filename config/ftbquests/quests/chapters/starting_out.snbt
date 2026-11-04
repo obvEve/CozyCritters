@@ -15,8 +15,8 @@
 		image: "cozycritters:textures/quests/getting_started.png"
 		rotation: 0.0d
 		width: 10.0d
-		x: 0.5d
-		y: -5.5d
+		x: 3.0d
+		y: -5.0d
 	}]
 	order_index: 0
 	quest_links: [ ]
@@ -120,6 +120,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["73CC61A9F5298076"]
 			id: "4E39F9F21450980A"
 			tasks: [{
 				id: "07F8D9343411FA3F"

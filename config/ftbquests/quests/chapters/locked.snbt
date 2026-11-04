@@ -1,5 +1,4 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	disable_toast: true
@@ -17,42 +16,19 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "2EFE8B4BF34FDC3E"
+			id: "266E04FF005A357D"
 			tasks: [
 				{
-					id: "4EECD8F50A93BBCE"
-					item: { count: 1, id: "minecraft:glowstone" }
+					id: "3F11AAA892729B4B"
+					item: { count: 1, id: "rechiseled:chisel" }
 					type: "item"
 				}
 				{
-					dimension: "aether:the_aether"
-					icon: {
-						id: "minecraft:glowstone"
-					}
-					id: "780DFDCC7DB7569C"
-					type: "dimension"
+					id: "1BA3172D92841B25"
+					item: { count: 1, id: "chipped:chisel" }
+					type: "item"
 				}
 			]
-			x: -2.0d
-			y: 0.0d
-		}
-		{
-			id: "5B7049D3646B763E"
-			tasks: [{
-				id: "39BE138DF3807AD9"
-				item: { count: 1, id: "sereneseasons:calendar" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: -1.5d
-		}
-		{
-			id: "266E04FF005A357D"
-			tasks: [{
-				id: "3F11AAA892729B4B"
-				item: { count: 1, id: "rechiseled:chisel" }
-				type: "item"
-			}]
 			x: -2.0d
 			y: -3.0d
 		}
@@ -65,26 +41,6 @@
 			}]
 			x: -2.0d
 			y: -4.5d
-		}
-		{
-			id: "28406128830841D5"
-			tasks: [{
-				id: "22C6F9FA839D7AD5"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:hoes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: -4.5d
-		}
-		{
-			id: "3B359FA3E0FC00CF"
-			tasks: [{
-				id: "51CACCA826092584"
-				item: { count: 1, id: "animal_feeding_trough:feeding_trough" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: -3.0d
 		}
 		{
 			id: "71F56D82024CCC5F"
@@ -123,16 +79,23 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(constructionstick:construction_sticks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: -3.0d
+			x: -4.0d
+			y: -4.5d
 		}
 		{
 			id: "08C4F0461A826F76"
-			tasks: [{
-				id: "7DF1B1F3E4A8CF55"
-				item: { count: 1, id: "framedblocks:framed_cube" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7DF1B1F3E4A8CF55"
+					item: { count: 1, id: "framedblocks:framed_cube" }
+					type: "item"
+				}
+				{
+					id: "5945EBF94B3347D0"
+					item: { count: 1, id: "framedblocks:framing_saw" }
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: -1.5d
 		}
@@ -148,11 +111,53 @@
 		}
 		{
 			id: "6BA8D95959E8A4ED"
-			tasks: [{
-				id: "3DB1D6F1E3A69186"
-				item: { count: 1, id: "mcwbridges:crimson_log_bridge_middle" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3DB1D6F1E3A69186"
+					item: { count: 1, id: "mcwbridges:crimson_log_bridge_middle" }
+					type: "item"
+				}
+				{
+					id: "22AAEC383BF2DA5E"
+					item: { count: 1, id: "mcwdoors:bamboo_barn_door" }
+					type: "item"
+				}
+				{
+					id: "37615DF61EC33D5E"
+					item: { count: 1, id: "mcwfences:oak_picket_fence" }
+					type: "item"
+				}
+				{
+					id: "5A39FA4EEAB43234"
+					item: { count: 1, id: "mcwfurnitures:spruce_chair" }
+					type: "item"
+				}
+				{
+					id: "5C5138A626F24591"
+					item: { count: 1, id: "mcwlights:white_lamp" }
+					type: "item"
+				}
+				{
+					id: "0A5DBF122B0C1FA7"
+					item: { count: 1, id: "mcwpaths:andesite_clover_paving" }
+					type: "item"
+				}
+				{
+					id: "2CC8DBEF9BF200CF"
+					item: { count: 1, id: "mcwstairs:oak_terrace_stairs" }
+					type: "item"
+				}
+				{
+					id: "3B292EF4E909D9BA"
+					item: { count: 1, id: "mcwtrpdoors:oak_barn_trapdoor" }
+					type: "item"
+				}
+				{
+					id: "773818FC6F753B85"
+					item: { count: 1, id: "mcwwindows:oak_window" }
+					type: "item"
+				}
+			]
 			x: -9.0d
 			y: -4.5d
 		}
@@ -165,23 +170,6 @@
 			}]
 			x: -9.0d
 			y: -3.0d
-		}
-		{
-			id: "39D3EB16151C8753"
-			tasks: [
-				{
-					id: "31A96AFA6F42B371"
-					item: { count: 1, id: "minecraft:carrot" }
-					type: "item"
-				}
-				{
-					id: "560FD16265C8B25A"
-					item: { count: 1, id: "solcarrot:food_book" }
-					type: "item"
-				}
-			]
-			x: -9.0d
-			y: -1.5d
 		}
 		{
 			id: "73A8EDC909FAC340"
@@ -271,8 +259,8 @@
 					type: "item"
 				}
 			]
-			x: -11.5d
-			y: -4.5d
+			x: -4.0d
+			y: -3.0d
 		}
 		{
 			id: "03702C2E46776AE0"
@@ -281,18 +269,33 @@
 				id: "03EEA265D48B665D"
 				type: "dimension"
 			}]
-			x: -11.5d
-			y: -3.0d
+			x: -9.0d
+			y: -1.5d
 		}
 		{
-			id: "43E303841FEF07AC"
+			icon: {
+				components: {
+					"ftbquests:icon": "neoforge:textures/gui/experimental_warning.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4C194BA068DC71C6"
 			tasks: [{
-				id: "570C32DFA57268C0"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:pickaxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "3AF8AE0D30A1F247"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -8.0d
+		}
+		{
+			id: "0241AD5A93EDC04B"
+			tasks: [{
+				id: "63BAA94ED0FCA365"
+				item: { count: 1, id: "create:encased_fan" }
 				type: "item"
 			}]
-			x: -11.5d
-			y: -1.5d
+			x: -6.5d
+			y: -3.0d
 		}
 	]
 }

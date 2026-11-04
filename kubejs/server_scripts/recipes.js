@@ -10,7 +10,8 @@
 const bunkDying = [
     ['biomesoplenty:black_sand', '#c:dyes/black', '#minecraft:sand'],
     ['biomesoplenty:orange_sand', '#c:dyes/orange', '#minecraft:sand'],
-    ['biomesoplenty:white_sand', '#c:dyes/white', '#minecraft:sand']
+    ['biomesoplenty:white_sand', '#c:dyes/white', '#minecraft:sand'],
+    ['minecraft:red_sand', '#c:dyes/red', '#minecraft:sand'],
 ]
 
 // Listen for the "recipes" server event.

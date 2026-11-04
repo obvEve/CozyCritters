@@ -1,13 +1,23 @@
 {
 	chapter.040951D584327E30.title: "Starting Out"
+	chapter.0EE871FD96D84599.title: "The Aether"
+	chapter.174FED33A5878071.title: "Artifacts"
 	chapter.1A5028D753F1505F.title: "Storage"
 	chapter.20454E54AE8929BC.title: "Farming Life"
 	chapter.37AC90CE9479F587.title: "Tips n Tricks"
 	chapter.6A4326AB92D60E28.title: "Create"
-	chapter.7174B12700ADF0AA.title: "Locked"
+	chapter.7174B12700ADF0AA.title: "Future"
 	chapter.777538A18EF1A230.title: "Building Tricks"
+	chapter_group.15D403DB0F8BE048.title: "Exploration"
 	chapter_group.4D8A9A985B95E1D2.title: "Progression"
 	file.0000000000000001.title: "Cozy Critters"
+	quest.0241AD5A93EDC04B.quest_desc: ["The &6Encased Fan&r can be used for a variety of things, such as &cBulk Smelting&r, &cColoring&r and much more!"]
+	quest.08C4F0461A826F76.quest_desc: [
+		"Framed Blocks is a very nice mod for building and allows you to turn pretty much all blocks into slabs, stairs etc."
+		""
+		"The &6Framed Cube&r and the &6Framing Saw&r are the core parts to this."
+	]
+	quest.08C4F0461A826F76.title: "Framed Blocks"
 	quest.0AEA5CA57AF6ECAB.quest_desc: [
 		"The beginning of your farming life starts with a home and of course your trusty hoe."
 		""
@@ -18,44 +28,56 @@
 	quest.0AEA5CA57AF6ECAB.title: "Farming Life Begins"
 	quest.0E2AE23521A8364E.quest_desc: ["It's not Minecraft without chopping down your first tree!"]
 	quest.0E2AE23521A8364E.title: "Gather Wood"
-	quest.0EB62FAFB509BAFD.quest_desc: ["A portable crafting table"]
-	quest.10F93CDCE1BB028F.quest_desc: [
-		"An easy way to get a lot of those common stones"
+	quest.0EB62FAFB509BAFD.quest_desc: [
+		"Ever got tired of placing down your crafting table? Fear no more!"
 		""
-		"Obsidian and Stone require heating"
+		"With the &7Crafting Table on a Stick&r, you can simply right click it or even keybind it!"
+	]
+	quest.10F93CDCE1BB028F.quest_desc: [
+		"An easy way to get a lot of those common stones."
+		""
+		"Obsidian and Stone require heating to be produced."
 	]
 	quest.10F93CDCE1BB028F.title: "Create: Generators"
+	quest.16432248CA60070F.quest_desc: [
+		"Well, you've made the portal.. Now you gotta go through."
+		""
+		"&eThe Ather&r has a bunch of advancements to help guide you through it, you can view them with the \"L\" keybind."
+	]
+	quest.16432248CA60070F.title: "Visit The Aether"
 	quest.1956BA33D413F3EB.quest_desc: ["&lSophisticated Storage&r has a lot of upgraded versions of the vanilla Chests, Barrels and Shulkers."]
 	quest.1956BA33D413F3EB.title: "Sophisticated Storage"
-	quest.28406128830841D5.quest_desc: [
-		"Crops grow faster during rain!"
+	quest.1E128D9080CD5310.quest_desc: [
+		"Bounty Boards can be found in villages or even crafted!"
 		""
-		"You can right click to harvest easily!"
+		"With these, you can choose limited-time bounties to collect and receive a reward."
 	]
-	quest.28406128830841D5.title: "Farming"
+	quest.266E04FF005A357D.quest_desc: [
+		"&6Rechiseled&r and &6Chipped&r allow you to change a lot of blocks into some new variants."
+		""
+		"Due to an addon, the Rechiseled Chisel can be used for Chipped too!"
+	]
 	quest.2DB282B54FC3E837.quest_desc: [
 		"Andesite Alloy is a primary crafting ingredient in &6Create,&r and the main reason you collected that andesite in the first place."
 		""
 		"You can make it with just 2 andesite and either 2 Iron Nuggets or 2 Zinc Nuggets. In the future you'll only need 1 of each!"
 	]
-	quest.2EFE8B4BF34FDC3E.quest_desc: ["Glowstone + Water bucket"]
-	quest.2EFE8B4BF34FDC3E.title: "The Aether"
+	quest.319BB08C3FA0C59E.quest_desc: [
+		"Serene Seasons adds... you guessed it: seasons."
+		""
+		"The season can affect crop growth and the weather, even making it snow in places it normally wouldn't! "
+		""
+		"Using the Calendar you can view the current season."
+	]
 	quest.39C3729722D0E468.quest_desc: [
-		"With your new tools you can use &lFTB-Ultimine&r to mine up to 16 blocks."
+		"With your new tools you can use &lFTB-Ultimine&r (Defaulted to your GRAVE key, usually between Esc and Tab) to mine up to 16 blocks."
 		""
 		"This also includes till-ing dirt, or even harvesting crops!"
 	]
 	quest.39C3729722D0E468.title: "The Stone Age"
-	quest.39D3EB16151C8753.quest_desc: ["Eating rewards you with more hearts."]
-	quest.39D3EB16151C8753.title: "Spice of Life"
-	quest.3B359FA3E0FC00CF.title: "Automatic Breeding"
 	quest.41CE401FDD2474F7.quest_desc: [""]
 	quest.41CE401FDD2474F7.title: "Handcrafted"
-	quest.43E303841FEF07AC.quest_desc: [
-		"You can use &lFTB-Ultimine&r to mine up to 16 blocks."
-		""
-		"This also includes till-ing dirt, or even harvesting crops!"
-	]
+	quest.451D7EBA68E43196.quest_desc: ["Barrels are a variant of chests, while having the same slots as a single chest."]
 	quest.46935628D94C993F.quest_desc: ["The vanilla chest is limited to just 27 slots, allowing the creation of a double chest."]
 	quest.46935628D94C993F.title: "Chests"
 	quest.47E2D16AC726ED4E.quest_desc: [
@@ -68,8 +90,10 @@
 		"Andd the waxed version will simply show the crop in its fully grown state, without being farmable."
 	]
 	quest.47E2D16AC726ED4E.title: "Botany Pots"
+	quest.4C194BA068DC71C6.quest_desc: ["&lThis is purely for the Beta while things get sorted into their normal spots.&r"]
 	quest.4C956F8F630A8BDA.quest_desc: ["Large-mass storage of specific items"]
 	quest.4C956F8F630A8BDA.title: "Functional Storage"
+	quest.52F50AAC2896AAE5.quest_desc: ["The Feeding Trough can be used to have animals feed themselves, and eventually breeding."]
 	quest.53871935A5E9783D.quest_desc: [
 		"Get your trusty &6Wrench&r and &6Goggles!&r. I'll even refund the gold."
 		""
@@ -78,8 +102,18 @@
 		"The &6Engineer's Goggles&r when equipped will show you useful information about your &6Create&r machines"
 	]
 	quest.53871935A5E9783D.title: "Engineer's Degree"
+	quest.56E0655BE9A97C2C.quest_desc: [
+		"To enter &eThe Aether&r you'll need glowstone and a water bucket."
+		""
+		"{image:cozycritters:textures/quests/aether/aether_portal.png width:100 height:100 align:center click_action:none:}"
+	]
+	quest.56E0655BE9A97C2C.title: "Preparations for The Aether"
+	quest.5A6455404A24EE65.quest_desc: [
+		"The Saw works like the stone cutter, but for wooden items instead!"
+		""
+		"If it's craftable with just wood, you can use the Saw for it."
+	]
 	quest.5A6455404A24EE65.title: "Wooden Stonecutter"
-	quest.5B7049D3646B763E.title: "Serene Seasons"
 	quest.5EDA559F51E519F5.quest_desc: [
 		"You'll want to convert some &#B36E03Logs&r into Andesite Casings. You can do this by stripping some logs and right-clicking them with your Andesite Alloy."
 		""
@@ -98,7 +132,38 @@
 		"Anyway, with all that being said... Get yourself lots of andesite to begin your &6Create&r journey."
 	]
 	quest.69237D1E88EC307D.quest_desc: ["You're gonna want to smell all those metals you find."]
+	quest.6BA8D95959E8A4ED.quest_desc: [
+		"Macaw's Bridges"
+		""
+		"Macaw's Doors"
+		""
+		"Macaw's Fences and Walls"
+		""
+		"Macaw's Furniture"
+		""
+		"Macaw's Lights and Lamps"
+		""
+		"Macaw's Paths and Pavings"
+		""
+		"Macaw's Stairs and Balconies"
+		""
+		"Macaw's Trapdoors"
+		""
+		"Macaw's Windows"
+	]
+	quest.6CCF2F8D9A1FE585.quest_desc: [
+		"&6Spice of Life&r rewards you with hearts when you eat a variety of foods. "
+		"This goes up to &c+10 hearts&r at 50 foods eaten."
+		""
+		"The &6Food Book&r lets you see all the foods and whether you've eaten them so far."
+	]
+	quest.7019328FE555F310.quest_desc: [
+		"Ever wanted Boobs? No? Oh well."
+		""
+		"You'll need to change your keybind for it (Search \"Female\" in your keybinds!) and then you can change that."
+	]
 	quest.71F56D82024CCC5F.title: "Artifacts"
+	quest.73A8EDC909FAC340.quest_desc: ["Allows you to use more paintings and even custom ones!"]
 	quest.73A8EDC909FAC340.title: "Immersive Paintings"
 	quest.73CC61A9F5298076.title: "The Metal Age"
 	quest.76A814D87B2343D5.quest_desc: [
@@ -117,10 +182,10 @@
 	reward_table.233B1C8938F49FE0.title: "Food Rewards"
 	reward_table.5C7239C29628CDF0.title: "common"
 	task.1A0F581767FC8EB1.title: "Any #functionalstorage:fluid_drawer"
-	task.22C6F9FA839D7AD5.title: "Any #minecraft:hoes"
 	task.2B08760707D36F0B.title: "Any #constructionstick:construction_sticks"
 	task.34E22E1F95F6B475.title: "Any #c:cobblestones"
 	task.37803294B8BC0BC1.title: "Any #minecraft:hoes"
+	task.3AF8AE0D30A1F247.title: "Info"
 	task.3DB1D6F1E3A69186.title: "Macaw's"
 	task.3F3117121C1F9FDD.title: "Any #functionalstorage:drawer"
 	task.42C7AA4122688563.title: "Any #minecraft:logs"
@@ -128,9 +193,7 @@
 	task.44D0C092629056F1.title: "Female Gender Mod"
 	task.46AC22F0BB792DEF.title: "Visit The End "
 	task.4B9B8B0D0A7F393B.title: "Any #artifacts:artifacts"
-	task.570C32DFA57268C0.title: "Any #minecraft:pickaxes"
 	task.70BF46A4EDBADBA9.title: "Any #comforts:sleeping_bags"
-	task.780DFDCC7DB7569C.title: "Visit The Aether"
 	task.7C0E7AADA12A135A.title: "Any #botanypots:botany_pots"
 	task.7DF28637101D2BA9.title: "Any #c:ingots"
 }
