@@ -10,5 +10,13 @@
 	images: [ ]
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "2E714AA39B073EA3"
+		tasks: [{
+			id: "20A0EBACD46F6A4C"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 }

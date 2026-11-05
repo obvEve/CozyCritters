@@ -12,7 +12,7 @@
 	}
 	id: "7174B12700ADF0AA"
 	images: [ ]
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -110,58 +110,6 @@
 			y: 0.0d
 		}
 		{
-			id: "6BA8D95959E8A4ED"
-			tasks: [
-				{
-					id: "3DB1D6F1E3A69186"
-					item: { count: 1, id: "mcwbridges:crimson_log_bridge_middle" }
-					type: "item"
-				}
-				{
-					id: "22AAEC383BF2DA5E"
-					item: { count: 1, id: "mcwdoors:bamboo_barn_door" }
-					type: "item"
-				}
-				{
-					id: "37615DF61EC33D5E"
-					item: { count: 1, id: "mcwfences:oak_picket_fence" }
-					type: "item"
-				}
-				{
-					id: "5A39FA4EEAB43234"
-					item: { count: 1, id: "mcwfurnitures:spruce_chair" }
-					type: "item"
-				}
-				{
-					id: "5C5138A626F24591"
-					item: { count: 1, id: "mcwlights:white_lamp" }
-					type: "item"
-				}
-				{
-					id: "0A5DBF122B0C1FA7"
-					item: { count: 1, id: "mcwpaths:andesite_clover_paving" }
-					type: "item"
-				}
-				{
-					id: "2CC8DBEF9BF200CF"
-					item: { count: 1, id: "mcwstairs:oak_terrace_stairs" }
-					type: "item"
-				}
-				{
-					id: "3B292EF4E909D9BA"
-					item: { count: 1, id: "mcwtrpdoors:oak_barn_trapdoor" }
-					type: "item"
-				}
-				{
-					id: "773818FC6F753B85"
-					item: { count: 1, id: "mcwwindows:oak_window" }
-					type: "item"
-				}
-			]
-			x: -9.0d
-			y: -4.5d
-		}
-		{
 			id: "5B3BA7004F46862B"
 			tasks: [{
 				dimension: "minecraft:the_end"
@@ -197,7 +145,7 @@
 				entityTypeTag: "spider_overhaul:spiders"
 				id: "3A6A0F6E8B11E40B"
 				type: "kill"
-				value: 1L
+				value: 100L
 			}]
 			x: -6.5d
 			y: -6.0d
@@ -205,7 +153,8 @@
 		{
 			id: "2A39876DDA7B7F4D"
 			tasks: [{
-				entity: "endermanoverhaul:end_enderman"
+				entity: "aether:aechor_plant"
+				entityTypeTag: "cozycritters:overhauled_enderman"
 				id: "7B29662D34E8471C"
 				type: "kill"
 				value: 100L
@@ -296,6 +245,43 @@
 			}]
 			x: -6.5d
 			y: -3.0d
+		}
+		{
+			id: "2994B815B659FA44"
+			tasks: [
+				{
+					id: "471859046D8C69A3"
+					item: { count: 1, id: "buzzier_bees:honey_apple" }
+					type: "item"
+				}
+				{
+					id: "5DE4F812CE641D61"
+					item: { count: 1, id: "buzzier_bees:honey_bread" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			id: "55A8E33B059F2849"
+			tasks: [{
+				id: "79F89FAE57EA7ADE"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(fairylights:lights)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "60628424A50EF2DD"
+			tasks: [{
+				id: "1F7BD4AE22DBBFF6"
+				structure: "ribbits:ribbit_village"
+				type: "structure"
+			}]
+			x: -11.0d
+			y: -6.0d
 		}
 	]
 }

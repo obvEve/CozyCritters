@@ -2,13 +2,131 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "building_tools"
-	group: ""
+	group: "1A5D528A58D114B8"
 	icon: {
 		id: "rechiseled:chisel"
 	}
 	id: "777538A18EF1A230"
 	images: [ ]
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "3748C15DF5748199"
+			tasks: [{
+				id: "54534A78BCD644FF"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(constructionstick:construction_sticks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "2E0988955DF29048"
+			tasks: [
+				{
+					id: "2C3FB06B3831016A"
+					item: { count: 1, id: "rechiseled:chisel" }
+					type: "item"
+				}
+				{
+					id: "1A7B13B5B02DEB35"
+					item: { count: 1, id: "chipped:botanist_workbench" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "19538075FDF866CE"
+			tasks: [{
+				id: "5DAA2BC9DA07C36D"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cozycritters:macawwindows)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			id: "638FA04380A74215"
+			tasks: [{
+				id: "5BD6A5F28BF183A3"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cozycritters:macawbridges)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			id: "13473D175768CEB7"
+			tasks: [{
+				id: "5539500BC4598D4E"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cozycritters:macawstairs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -9.0d
+		}
+		{
+			id: "214D1B15430ADCA2"
+			tasks: [{
+				id: "0978B849BE1F2970"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cozycritters:macawdoors)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			id: "54E2D9A3CF954AA1"
+			tasks: [{
+				id: "58536C702A66F891"
+				item: { count: 1, id: "mcwfences:oak_picket_fence" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			id: "11CD9B18235D1D02"
+			tasks: [{
+				id: "63D2F16CEFBC4DA3"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cozycritters:macawfurnitures)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			id: "2FC3080B46F3B40D"
+			tasks: [{
+				id: "186CB9435D913C01"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cozycritters:macawlights)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			id: "309700392D2E85D4"
+			tasks: [{
+				id: "786062BB1D8D2413"
+				item: { count: 1, id: "mcwpaths:oak_planks_path" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			id: "2A2FCF2BE230485E"
+			tasks: [{
+				id: "01EF311871109110"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cozycritters:macawtrapdoors)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+	]
 }
