@@ -16,43 +16,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "266E04FF005A357D"
-			tasks: [
-				{
-					id: "3F11AAA892729B4B"
-					item: { count: 1, id: "rechiseled:chisel" }
-					type: "item"
-				}
-				{
-					id: "1BA3172D92841B25"
-					item: { count: 1, id: "chipped:chisel" }
-					type: "item"
-				}
-			]
-			x: -2.0d
-			y: -3.0d
-		}
-		{
-			id: "5A6455404A24EE65"
-			tasks: [{
-				id: "31B0A6FCFEA51540"
-				item: { count: 1, id: "sawmill:sawmill" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: -4.5d
-		}
-		{
-			id: "71F56D82024CCC5F"
-			tasks: [{
-				id: "4B9B8B0D0A7F393B"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(artifacts:artifacts)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: -1.5d
-		}
-		{
 			id: "66BF0D0861A0295A"
 			tasks: [{
 				id: "70BF46A4EDBADBA9"
@@ -106,8 +69,8 @@
 				item: { count: 1, id: "handcrafted:hammer" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: 0.0d
+			x: -4.0d
+			y: -1.5d
 		}
 		{
 			id: "5B3BA7004F46862B"
@@ -280,8 +243,25 @@
 				structure: "ribbits:ribbit_village"
 				type: "structure"
 			}]
-			x: -11.0d
-			y: -6.0d
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			id: "66F89189FDD2E676"
+			tasks: [
+				{
+					id: "394AC7A59C5ECC2D"
+					item: { count: 1, id: "camerapture:camera" }
+					type: "item"
+				}
+				{
+					id: "4E32CB6E4E94938E"
+					item: { count: 1, id: "camerapture:album" }
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 0.0d
 		}
 	]
 }

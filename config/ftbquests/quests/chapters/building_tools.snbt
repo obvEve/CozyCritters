@@ -30,8 +30,8 @@
 					type: "item"
 				}
 				{
-					id: "1A7B13B5B02DEB35"
-					item: { count: 1, id: "chipped:botanist_workbench" }
+					id: "61C7F31E73687D8E"
+					item: { count: 1, id: "chipped:chisel" }
 					type: "item"
 				}
 			]
@@ -127,6 +127,42 @@
 			}]
 			x: 0.0d
 			y: -7.5d
+		}
+		{
+			id: "3F2CE2876E54EAEA"
+			tasks: [{
+				id: "66F92C68E52E92B9"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "43BBB968CCBEA52F"
+			tasks: [{
+				id: "44A1726DC97FDC91"
+				item: { count: 1, id: "sawmill:sawmill" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "03E7ADFD5F6A5F88"
+			tasks: [
+				{
+					id: "2FE6150FCDA7EC1C"
+					item: { count: 1, id: "framedblocks:framed_cube" }
+					type: "item"
+				}
+				{
+					id: "1D68550184ECD6B8"
+					item: { count: 1, id: "framedblocks:framing_saw" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
 		}
 	]
 }

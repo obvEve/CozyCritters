@@ -13,6 +13,7 @@
 	chapter_group.4D8A9A985B95E1D2.title: "Progression"
 	file.0000000000000001.title: "Cozy Critters"
 	quest.0241AD5A93EDC04B.quest_desc: ["The &6Encased Fan&r can be used for a variety of things, such as &cBulk Smelting&r, &cColoring&r and much more!"]
+	quest.03E7ADFD5F6A5F88.title: "Framed Blocks"
 	quest.08C4F0461A826F76.quest_desc: [
 		"Framed Blocks is a very nice mod for building and allows you to turn pretty much all blocks into slabs, stairs etc."
 		""
@@ -60,17 +61,17 @@
 		"With these, you can choose limited-time bounties to collect and receive a reward."
 	]
 	quest.214D1B15430ADCA2.title: "Macaw's Doors"
-	quest.266E04FF005A357D.quest_desc: [
-		"&6Rechiseled&r and &6Chipped&r allow you to change a lot of blocks into some new variants."
-		""
-		"Due to an addon, the Rechiseled Chisel can be used for Chipped too!"
-	]
 	quest.2994B815B659FA44.title: "Buzzier Bees"
 	quest.2A2FCF2BE230485E.title: "Macaw's Trapdoors"
 	quest.2DB282B54FC3E837.quest_desc: [
 		"Andesite Alloy is a primary crafting ingredient in &6Create,&r and the main reason you collected that andesite in the first place."
 		""
 		"You can make it with just 2 andesite and either 2 Iron Nuggets or 2 Zinc Nuggets. In the future you'll only need 1 of each!"
+	]
+	quest.2E0988955DF29048.quest_desc: [
+		"&6Rechiseled&r and &6Chipped&r allow you to change a lot of blocks into some new variants using the &6Chisel&rs."
+		""
+		"Due to an addon, the Rechiseled Chisel can be used for Chipped too!"
 	]
 	quest.2E0988955DF29048.title: "Chisels"
 	quest.2E714AA39B073EA3.quest_desc: [
@@ -90,7 +91,9 @@
 	quest.3748C15DF5748199.quest_desc: [
 		"&aConstruction Sticks&r are an easy way to place a lot of the same block."
 		""
-		"Depending on your tier, it can vary from 3 blocks, all the way up to 1028 blocks."
+		"The amount of blocks it can place and it's durability will heavily depend on the tier you make it."
+		""
+		"Eventually, you'll gather yourself a &eNether Star&r, allowing you to make your stick unbreakable."
 	]
 	quest.3748C15DF5748199.title: "Construction Sticks"
 	quest.39C3729722D0E468.quest_desc: [
@@ -99,8 +102,19 @@
 		"This also includes till-ing dirt, or even harvesting crops!"
 	]
 	quest.39C3729722D0E468.title: "The Stone Age"
+	quest.3F2CE2876E54EAEA.quest_desc: [
+		"I'll work on having this be less... ugly for macaws in the future."
+		""
+		"Right now, I'm sort of unsure how I wanna proceed with that."
+	]
+	quest.3F2CE2876E54EAEA.title: "Macaw's Is Split Too Much"
 	quest.41CE401FDD2474F7.quest_desc: [""]
 	quest.41CE401FDD2474F7.title: "Handcrafted"
+	quest.43BBB968CCBEA52F.quest_desc: [
+		"The &6Saw&r works like the stone cutter, but for wooden items instead!"
+		""
+		"If it's craftable with just wood, you can use the &6Saw&r for it."
+	]
 	quest.451D7EBA68E43196.quest_desc: ["Barrels are a variant of chests, while having the same slots as a single chest."]
 	quest.46935628D94C993F.quest_desc: ["The vanilla chest is limited to just 27 slots, allowing the creation of a double chest."]
 	quest.46935628D94C993F.title: "Chests"
@@ -109,7 +123,7 @@
 		""
 		"The base version requires you to manually harvest."
 		""
-		"The hopper version allows automatic harvesting."
+		"The hopper version allows automatic harvesting. Using an &aefficiency&r hoe here will shorten the grow time."
 		""
 		"Andd the waxed version will simply show the crop in its fully grown state, without being farmable."
 	]
@@ -139,12 +153,6 @@
 		"{image:cozycritters:textures/quests/aether/aether_portal.png width:100 height:100 align:center click_action:none:}"
 	]
 	quest.56E0655BE9A97C2C.title: "Preparations for The Aether"
-	quest.5A6455404A24EE65.quest_desc: [
-		"The Saw works like the stone cutter, but for wooden items instead!"
-		""
-		"If it's craftable with just wood, you can use the Saw for it."
-	]
-	quest.5A6455404A24EE65.title: "Wooden Stonecutter"
 	quest.5EDA559F51E519F5.quest_desc: [
 		"You'll want to convert some &#B36E03Logs&r into Andesite Casings. You can do this by stripping some logs and right-clicking them with your Andesite Alloy."
 		""
@@ -163,6 +171,8 @@
 		"Anyway, with all that being said... Get yourself lots of andesite to begin your &6Create&r journey."
 	]
 	quest.638FA04380A74215.title: "Macaw's Bridges"
+	quest.66BF0D0861A0295A.quest_desc: ["When exploring, a &bSleeping Bag&r is a must. With these, you'll be able to bring a bed with you that doesn't reset your spawnpoint."]
+	quest.66F89189FDD2E676.quest_desc: ["Take photos with the camera, and save them in your album! Can even be placed down."]
 	quest.69237D1E88EC307D.quest_desc: ["You're gonna want to smell all those metals you find."]
 	quest.6CCF2F8D9A1FE585.quest_desc: [
 		"&6Spice of Life&r rewards you with hearts when you eat a variety of foods. "
@@ -175,7 +185,6 @@
 		""
 		"You'll need to change your keybind for it (Search \"Female\" in your keybinds!) and then you can change that."
 	]
-	quest.71F56D82024CCC5F.title: "Artifacts"
 	quest.73A8EDC909FAC340.quest_desc: ["Allows you to use more paintings and even custom ones!"]
 	quest.73A8EDC909FAC340.title: "Immersive Paintings"
 	quest.73CC61A9F5298076.title: "The Metal Age"
@@ -208,12 +217,12 @@
 	task.4390183D1107C1E2.title: "Any #sophisticatedstorage:all_storage"
 	task.44D0C092629056F1.title: "Female Gender Mod"
 	task.46AC22F0BB792DEF.title: "Visit The End "
-	task.4B9B8B0D0A7F393B.title: "Any #artifacts:artifacts"
 	task.54534A78BCD644FF.title: "Any #constructionstick:construction_sticks"
 	task.5539500BC4598D4E.title: "Any #cozycritters:macawstairs"
 	task.5BD6A5F28BF183A3.title: "Any #cozycritters:macawbridges"
 	task.5DAA2BC9DA07C36D.title: "Any #cozycritters:macawwindows"
 	task.63D2F16CEFBC4DA3.title: "Any #cozycritters:macawfurnitures"
+	task.66F92C68E52E92B9.title: "Macaw's Is Split Too Much"
 	task.70BF46A4EDBADBA9.title: "Any #comforts:sleeping_bags"
 	task.79F89FAE57EA7ADE.title: "Any #fairylights:lights"
 	task.7C0E7AADA12A135A.title: "Any #botanypots:botany_pots"
