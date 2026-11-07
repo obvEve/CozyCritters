@@ -14,6 +14,26 @@ const bunkDying = [
     ['minecraft:red_sand', '#c:dyes/red', '#minecraft:sand'],
 ]
 
+// [soil input, soil output]
+const soilToFarmland = [
+    ['farmersdelight:rich_soil', 'farmersdelight:rich_soil_farmland']
+]
+
+function potInteractionRecipe(event, heldItem, soilItem, newSoil) {
+    event.custom({
+        type: 'botanypots:pot_interaction',
+        held_item: heldItem,
+        soil_item: soilItem,
+        new_soil: {
+            id: newSoil
+        },
+        sound_effect: {
+            id: 'minecraft:item.hoe.till',
+            category: 'BLOCKS'
+        }
+    })
+}
+
 // Listen for the "recipes" server event.
 ServerEvents.recipes(event => {
     // Disable certain recipes
@@ -39,5 +59,16 @@ ServerEvents.recipes(event => {
             A: ingredient,
             B: dye
         })
+    });
+
+    // Botany pot interactions
+    // source: https://github.com/Darkhax-Minecraft/BotanyPots/blob/1.21.1/common/src/main/resources/data/botanypots/recipe/minecraft/interaction/till_farmland.json
+    soilToFarmland.forEach(([soilInput, soilOutput]) => {
+        potInteractionRecipe(
+            event,
+            { tag: 'minecraft:hoes' },
+            { item: soilInput },
+            soilOutput
+        )
     })
 })
