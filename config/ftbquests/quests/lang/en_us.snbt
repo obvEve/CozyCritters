@@ -1,12 +1,14 @@
 {
-	chapter.040951D584327E30.title: "Starting Out"
+	chapter.040951D584327E30.title: "The Beginning"
 	chapter.0EE871FD96D84599.title: "The Aether"
 	chapter.174FED33A5878071.title: "Artifacts"
 	chapter.1A5028D753F1505F.title: "Storage"
 	chapter.20454E54AE8929BC.title: "Farming Life"
-	chapter.37AC90CE9479F587.title: "Tips n Tricks"
+	chapter.331B48AE3019B748.title: "The End"
+	chapter.4E56DB4B00D079B1.title: "Onboarding"
+	chapter.62EBED2D6E5900D3.title: "The Nether"
 	chapter.6A4326AB92D60E28.title: "Create"
-	chapter.7174B12700ADF0AA.title: "Future"
+	chapter.7174B12700ADF0AA.title: "Dev"
 	chapter.777538A18EF1A230.title: "Building Tips"
 	chapter_group.15D403DB0F8BE048.title: "Exploration"
 	chapter_group.1A5D528A58D114B8.title: "Building"
@@ -14,6 +16,13 @@
 	file.0000000000000001.title: "Cozy Critters"
 	quest.0241AD5A93EDC04B.quest_desc: ["The &6Encased Fan&r can be used for a variety of things, such as &cBulk Smelting&r, &cColoring&r and much more!"]
 	quest.03E7ADFD5F6A5F88.title: "Framed Blocks"
+	quest.085A6BBBE3E35F98.quest_desc: [
+		"Welcome to &bCozy Critters&r."
+		""
+		"Although there are quests, they are &aoptional&r and are intended to provide you with information. They may provide some additional rewards."
+		""
+		"Quests can be accessed through the Quest Book item, but also through the inventory in the Top Left."
+	]
 	quest.08C4F0461A826F76.quest_desc: [
 		"Framed Blocks is a very nice mod for building and allows you to turn pretty much all blocks into slabs, stairs etc."
 		""
@@ -96,6 +105,16 @@
 		"Eventually, you'll gather yourself a &eNether Star&r, allowing you to make your stick unbreakable."
 	]
 	quest.3748C15DF5748199.title: "Construction Sticks"
+	quest.377909E947774274.quest_desc: [
+		"There is a lot of commands for you to use:"
+		"- &b/spawn&r - Teleports you to spawn"
+		"- &b/sethome&r - Set your home, allowing you to return any time"
+		"- &b/home&r - Return to your set home"
+		"- &b/back&r - Return to your last teleport/death position"
+		"- &b/rtp&r"
+		"- &b/tpa&r"
+	]
+	quest.377909E947774274.title: "Commands"
 	quest.39C3729722D0E468.quest_desc: [
 		"With your new tools you can use &lFTB-Ultimine&r (Defaulted to your GRAVE key, usually between Esc and Tab) to mine up to 16 blocks."
 		""
@@ -195,6 +214,11 @@
 		"[ \"You can use \", { \"text\": \"this video\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://youtu.be/nW5ElcWiC3c\" } }, \" as a guide\" ]"
 	]
 	quest.76A814D87B2343D5.title: "Tom's Simple Storage"
+	quest.78903B6854068FFE.quest_desc: [
+		"In the Top Left of your inventory, you can access &aFTB Teams&r. "
+		""
+		"With this, you can share claims and quest completions."
+	]
 	quest.7B61B6507F820511.quest_desc: [
 		"Ever needed more storage on your player? Well need no more!"
 		""

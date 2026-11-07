@@ -1,4 +1,4 @@
-resourcePacks:["vanilla","mod_resources","moonlight:merged_pack","eatinganimations_compat","file/Better SB Upgrades.zip","file/Create_Ultra_2.7.zip","file/Construction Sticks Grips.zip","file/FreshAnimations_v1.11.2_1.20.zip","file/FA-All_Extensions-v1.10.1.zip"]
+resourcePacks:["vanilla","mod_resources","moonlight:merged_pack","eatinganimations_compat","file/Better SB Upgrades.zip","file/Create_Ultra_2.7.zip","file/Construction Sticks Grips.zip","file/FreshAnimations_v1.11.2_1.20.zip","file/FA-All_Extensions-v1.10.1.zip","vanillabackport:freshly_animated","file/Fancy Crops v1.3.zip","file/[Moonsu] Better Hotbar 2.0.zip"]
 
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.unknown

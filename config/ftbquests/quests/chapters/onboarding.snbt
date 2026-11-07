@@ -1,0 +1,44 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "onboarding"
+	group: ""
+	icon: {
+		id: "minecraft:oak_sign"
+	}
+	id: "4E56DB4B00D079B1"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "085A6BBBE3E35F98"
+			tasks: [{
+				id: "3EF966C4729A1D16"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["085A6BBBE3E35F98"]
+			id: "78903B6854068FFE"
+			tasks: [{
+				id: "3F09868369519BA4"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["085A6BBBE3E35F98"]
+			id: "377909E947774274"
+			tasks: [{
+				id: "41E938A6786539A0"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}
