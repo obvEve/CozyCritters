@@ -19,7 +19,7 @@ const soilToFarmland = [
     ['farmersdelight:rich_soil', 'farmersdelight:rich_soil_farmland']
 ]
 
-function potInteractionRecipe(event, heldItem, soilItem, newSoil) {
+function potInteractionRecipe(/** @type {$RecipesKubeEvent} */ event, heldItem, soilItem, newSoil) {
     event.custom({
         type: 'botanypots:pot_interaction',
         held_item: heldItem,

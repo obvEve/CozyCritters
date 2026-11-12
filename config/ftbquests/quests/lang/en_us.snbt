@@ -14,6 +14,8 @@
 	chapter_group.1A5D528A58D114B8.title: "Building"
 	chapter_group.4D8A9A985B95E1D2.title: "Progression"
 	file.0000000000000001.title: "Cozy Critters"
+	image.01F8AAA7B928983B.title: "Bug Reporting"
+	image.7A5C87188CF55151.title: "Discord"
 	quest.0241AD5A93EDC04B.quest_desc: ["The &6Encased Fan&r can be used for a variety of things, such as &cBulk Smelting&r, &cColoring&r and much more!"]
 	quest.03E7ADFD5F6A5F88.title: "Framed Blocks"
 	quest.085A6BBBE3E35F98.quest_desc: [
@@ -23,6 +25,7 @@
 		""
 		"Quests can be accessed through the Quest Book item, but also through the inventory in the Top Left."
 	]
+	quest.085A6BBBE3E35F98.title: "Welcome and Quests"
 	quest.08C4F0461A826F76.quest_desc: [
 		"Framed Blocks is a very nice mod for building and allows you to turn pretty much all blocks into slabs, stairs etc."
 		""
@@ -215,10 +218,11 @@
 	]
 	quest.76A814D87B2343D5.title: "Tom's Simple Storage"
 	quest.78903B6854068FFE.quest_desc: [
-		"In the Top Left of your inventory, you can access &aFTB Teams&r. "
+		"Above your inventory, you can access &aFTB Teams&r. "
 		""
-		"With this, you can share claims and quest completions."
+		"With this, you can claim chunks as yours, chunk load and even share that with other team members."
 	]
+	quest.78903B6854068FFE.title: "FTB Teams"
 	quest.7B61B6507F820511.quest_desc: [
 		"Ever needed more storage on your player? Well need no more!"
 		""
@@ -229,6 +233,7 @@
 	reward_table.5C7239C29628CDF0.title: "common"
 	task.01EF311871109110.title: "Any #cozycritters:macawtrapdoors"
 	task.0978B849BE1F2970.title: "Any #cozycritters:macawdoors"
+	task.125C8180D4841584.title: "4"
 	task.186CB9435D913C01.title: "Any #cozycritters:macawlights"
 	task.1A0F581767FC8EB1.title: "Any #functionalstorage:fluid_drawer"
 	task.20A0EBACD46F6A4C.title: "Artifacts"
@@ -247,7 +252,10 @@
 	task.5DAA2BC9DA07C36D.title: "Any #cozycritters:macawwindows"
 	task.63D2F16CEFBC4DA3.title: "Any #cozycritters:macawfurnitures"
 	task.66F92C68E52E92B9.title: "Macaw's Is Split Too Much"
+	task.685AD6DC9D060C7F.title: "3"
+	task.6F130F6F87C499A5.title: "2"
 	task.70BF46A4EDBADBA9.title: "Any #comforts:sleeping_bags"
+	task.7744364F41F35021.title: "1"
 	task.79F89FAE57EA7ADE.title: "Any #fairylights:lights"
 	task.7C0E7AADA12A135A.title: "Any #botanypots:botany_pots"
 	task.7DF28637101D2BA9.title: "Any #c:ingots"

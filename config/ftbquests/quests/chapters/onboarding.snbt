@@ -7,11 +7,38 @@
 		id: "minecraft:oak_sign"
 	}
 	id: "4E56DB4B00D079B1"
-	images: [ ]
+	images: [
+		{
+			click_action: "open_uri:https://discord.com/invite/q3ahFpxnhs"
+			height: 1.0d
+			id: "7A5C87188CF55151"
+			image: "moonlight:textures/gui/sprites/media/discord.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			click_action: "open_uri:http://github.com/obvEve/cozyCritters/issues/"
+			height: 1.0d
+			id: "01F8AAA7B928983B"
+			image: "ftbquests:textures/gui/alert.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -2.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:item/book"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "085A6BBBE3E35F98"
 			tasks: [{
 				id: "3EF966C4729A1D16"
@@ -22,6 +49,12 @@
 		}
 		{
 			dependencies: ["085A6BBBE3E35F98"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbteams:textures/teams.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "78903B6854068FFE"
 			tasks: [{
 				id: "3F09868369519BA4"
@@ -32,6 +65,12 @@
 		}
 		{
 			dependencies: ["085A6BBBE3E35F98"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/notes"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "377909E947774274"
 			tasks: [{
 				id: "41E938A6786539A0"

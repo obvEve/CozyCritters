@@ -1,0 +1,40 @@
+{
+    "_COMMENT": "This is based on FTBTeam/FTB-Chunks code and Alex-Hashtag/LegendaryTabs data.",
+    "id": "ftbchunks",
+    "enabled": true,
+    "icon": {
+        "type": "texture",
+        "texture": "ftbchunks:textures/minimap_info.png",
+        "u": 0,
+        "v": 0
+    },
+    "screen_open_action": {
+        "type": "reflection",
+        "class_name": "dev.ftb.mods.ftbchunks.client.gui.LargeMapScreen",
+        "method_name": "openMap",
+        "static": true
+    },
+    "tooltip": "cozycritters.legendarytabs.ftbchunks",
+    "required_mods": [
+        "ftbchunks"
+    ],
+    "target_screen_class": "dev.ftb.mods.ftbchunks.client.gui.LargeMapScreen",
+    "show_tabs_on_screen": false,
+    "screen_sizes": {
+        "dev.ftb.mods.ftbchunks.client.gui.LargeMapScreen": {
+            "priority": 60,
+            "variables": {
+                "screen_width": {
+                    "source": "builtin",
+                    "id": "screen_width"
+                },
+                "screen_height": {
+                    "source": "builtin",
+                    "id": "screen_height"
+                }
+            },
+            "width_formula": "screen_width * 4 / 5",
+            "height_formula": "screen_height * 4 / 5"
+        }
+    }
+}

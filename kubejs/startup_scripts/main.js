@@ -8,4 +8,11 @@ global.disabledOutputRecipes = ['sophisticatedbackpacks:feeding_upgrade',
     'artifacts:everlasting_beef',
     'constructionstick:template_battery',
     'sophisticatedbackpacks:battery_upgrade',
-    'framedblocks:powered_framing_saw']
+    'framedblocks:powered_framing_saw'];
+
+global.disabledWithReplacement = ['croptopia:tomato', 'croptopia:cabbage', 'croptopia:onion'];
+
+global.disabledWithReplacement.forEach(element => {
+    if (element.contains('croptopia'))
+        global.disabledWithReplacement.add(element + "_seed")
+});

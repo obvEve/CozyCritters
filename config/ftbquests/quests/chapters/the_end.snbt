@@ -10,5 +10,52 @@
 	images: [ ]
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "468E0349E38A0F04"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "2117F4B8D6419D63"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0DA0E27C23E5AFD9"
+			tasks: [{
+				id: "7744364F41F35021"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "75D27DFB41483BA3"
+			tasks: [{
+				id: "6F130F6F87C499A5"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "18F923087651462E"
+			tasks: [{
+				id: "685AD6DC9D060C7F"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "2D0D5AD5A0645BC5"
+			tasks: [{
+				id: "125C8180D4841584"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
 }
