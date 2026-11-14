@@ -13,6 +13,6 @@ global.disabledOutputRecipes = ['sophisticatedbackpacks:feeding_upgrade',
 global.disabledWithReplacement = ['croptopia:tomato', 'croptopia:cabbage', 'croptopia:onion'];
 
 global.disabledWithReplacement.forEach(element => {
-    if (element.contains('croptopia'))
-        global.disabledWithReplacement.add(element + "_seed")
+    if (element.includes('croptopia'))
+        global.disabledWithReplacement.push(element + "_seed")
 });
