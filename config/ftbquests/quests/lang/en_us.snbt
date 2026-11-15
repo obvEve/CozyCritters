@@ -25,7 +25,7 @@
 		""
 		"Quests can be accessed through the Quest Book item, but also through the inventory in the Top Left."
 	]
-	quest.085A6BBBE3E35F98.title: "Welcome and Quests"
+	quest.085A6BBBE3E35F98.title: "&bWelcome and Quests&r"
 	quest.08C4F0461A826F76.quest_desc: [
 		"Framed Blocks is a very nice mod for building and allows you to turn pretty much all blocks into slabs, stairs etc."
 		""

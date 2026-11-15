@@ -100,6 +100,7 @@
 				id: "minecraft:iron_ingot"
 			}
 			id: "73CC61A9F5298076"
+			shape: "irontier"
 			tasks: [{
 				id: "7DF28637101D2BA9"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -122,6 +123,7 @@
 		{
 			dependencies: ["73CC61A9F5298076"]
 			id: "4E39F9F21450980A"
+			shape: "diamondtier"
 			tasks: [{
 				id: "07F8D9343411FA3F"
 				item: { count: 1, id: "minecraft:diamond" }
