@@ -9,6 +9,7 @@ This is the official source of Cozy Critters pack.
   - **/client_scripts** - Client-side scripts to run
   - **/server_scripts** - Server-side scripts to run
   - **/startup_scripts** - Start-up scripts, usually shared
+- **/CustomScripts** - Unfinished, but intended to be internal things, such as automatically creating changelogs.
 
 ## Official Links
 [CurseForge](https://www.curseforge.com/minecraft/modpacks/cozy-critters) -
