@@ -1,6 +1,6 @@
 ---
-name: Bug report
-about: Create a bug report to help us improve
+name: Bug Report
+about: Create a bug report
 title: "[ISSUE] "
 labels: bug
 assignees: obvEve
@@ -25,8 +25,8 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
- - OS: [e.g. Windows, Linux, iOS]
- - Version [e.g. 1.0.3]
+ - OS: [e.g. Windows, Linux]
+ - Pack Version [e.g. 1.0.3]
 
 **Additional context**
 Add any other context about the problem here.
