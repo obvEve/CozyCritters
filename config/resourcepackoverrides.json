@@ -1,0 +1,35 @@
+{
+    "schema_version": "2",
+    "failed_reloads_per_session": 5,
+    "default_overrides": {
+        "force_compatible": true
+    },
+    "pack_overrides": {
+        "forced_enabled": [
+            "file/Suren FTB Quests 1.0.1 1.21.1.zip",
+            "file/Create_Ultra_2.7.zip",
+            "file/FA-All_Extensions-v1.10.1.zip",
+            "file/FreshAnimations_v1.11.2_1.20.zip",
+            "file/Construction Sticks Grips.zip",
+            "file/Comforts Modernized - V1.1.zip",
+            "file/[Moonsu] Better Hotbar 2.0.zip",
+            "file/Fancy Crops v1.3.zip",
+            "file/Better SB Upgrades.zip",
+            "file/Punchy refined (1).zip"
+        ],
+        "hidden": [
+            "mod/punchy:resourcepacks/punchy",
+            "mod_resources",
+            "moonlight:merged_pack",
+            "eatinganimations_compat"
+        ],
+        "$$forced_enabled": {
+            "required": true
+        },
+        "$$hidden": {
+            "hidden": true,
+            "fixed_position": true,
+            "default_position": "TOP"
+        }
+    }
+}
