@@ -1,0 +1,35 @@
+# Default config file that will be copied to instance's config/ftbessentials.snbt location
+# Copy values you wish to override in here
+# Example:
+# 
+# {
+# 	misc: {
+# 		enderchest: {
+# 			enabled: false
+# 		}
+# 	}
+# }
+
+{
+    teleportation: {
+        back: {
+            warmup: 5
+        }
+
+        home: {
+            warmup: 5
+        }
+
+        playerspawn: {
+            warmup: 5
+        }
+
+        spawn: {
+            warmup: 5
+        }
+
+        rtp: {
+            warmup: 5
+        }
+    }
+}
