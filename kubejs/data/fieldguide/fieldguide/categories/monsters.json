@@ -1,0 +1,9 @@
+{
+    "target_category": "fieldguide:monsters",
+    "contents": [
+        {
+            "type": "entry",
+            "id": "artifacts:mimic"
+        }
+    ]
+}
