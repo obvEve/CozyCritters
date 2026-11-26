@@ -1,10 +1,15 @@
-const $PlayerWakeUpEvent = Java.loadClass("net.neoforged.neoforge.event.entity.player.PlayerWakeUpEvent")
 const $MobEffectCategory = Java.loadClass("net.minecraft.world.effect.MobEffectCategory")
+const $SleepFinishedTimeEvent = Java.loadClass("net.neoforged.neoforge.event.level.SleepFinishedTimeEvent")
 
-// FIX THIS GIVING IT FOR EXITING BED, NOT FULLY SLEEPING
-NativeEvents.onEvent($PlayerWakeUpEvent, event => {
-    const player = event.entity;
+NativeEvents.onEvent($SleepFinishedTimeEvent, event => {
+    event.level.players.forEach(player => {
+        if (player.isSleeping()) {
+            onPlayerSlept(player)
+        }
+    })
+});
 
+function onPlayerSlept(player) {
     player.heal(5)
 
     player.activeEffects.toArray().forEach(effect => {
@@ -14,13 +19,4 @@ NativeEvents.onEvent($PlayerWakeUpEvent, event => {
             player.removeEffect(effect.effect)
         }
     })
-})
-
-/*
-const $SleepFinishedTimeEvent = Java.loadClass(
-    "net.neoforged.neoforge.event.level.SleepFinishedTimeEvent"
-)
-
-loop players, if sleeping do the above logic
-
-*/
+}
