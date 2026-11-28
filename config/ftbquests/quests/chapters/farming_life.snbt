@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "farming_life"
-	group: "4D8A9A985B95E1D2"
+	group: "0EBFC21D72DDAE9E"
 	icon: {
 		id: "minecraft:wheat_seeds"
 	}
 	id: "20454E54AE8929BC"
 	images: [ ]
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

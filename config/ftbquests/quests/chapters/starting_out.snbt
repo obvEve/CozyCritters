@@ -10,13 +10,13 @@
 	id: "040951D584327E30"
 	images: [{
 		click_action: "none:"
-		height: 5.0d
+		height: 1.5625d
 		id: "7822F63014BFE7F6"
 		image: "cozycritters:textures/quests/getting_started.png"
 		rotation: 0.0d
-		width: 10.0d
+		width: 9.0625d
 		x: 3.0d
-		y: -5.0d
+		y: -3.5d
 	}]
 	order_index: 0
 	quest_links: [ ]
