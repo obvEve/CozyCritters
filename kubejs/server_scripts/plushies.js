@@ -50,7 +50,7 @@ ServerEvents.loaded(event => {
         else if (entity.hasTag(global.packIdentifier + ':overhauled_enderman')) { // check endermen
             associatedPlush = 'plushie_buddies:plushie_enderman'
         }
-        else if (entity.hasTag('spideroverhaul:spiders')) { // check spiders
+        else if (entity.hasTag('spider_overhaul:spiders')) { // check spiders
             associatedPlush = 'plushie_buddies:plushie_spider'
         }
 
