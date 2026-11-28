@@ -12,6 +12,7 @@ ServerEvents.tags('item', event => {
     event.add(global.packIdentifier + ':macawstairs', '@mcwstairs');
     event.add(global.packIdentifier + ':macawtrapdoors', '@mcwtrpdoors');
     event.add(global.packIdentifier + ':macawwindows', '@mcwwindows');
+    event.add(global.packIdentifier +  ':macawholidays', '@mcwholidays')
 
     global.disabledWithReplacement.forEach(element => {
         event.removeAllTagsFrom(element);

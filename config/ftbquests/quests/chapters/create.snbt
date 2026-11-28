@@ -39,6 +39,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["39C3729722D0E468"]
 			id: "617AB58B5946F488"
 			rewards: [{
 				count: 31

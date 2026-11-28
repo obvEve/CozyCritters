@@ -15,7 +15,8 @@
             "file/[Moonsu] Better Hotbar 2.0.zip",
             "file/Fancy Crops v1.3.zip",
             "file/Better SB Upgrades.zip",
-            "file/Punchy refined (1).zip"
+            "file/Punchy refined (1).zip",
+            "file/mod-descriptions-v11.1.zip"
         ],
         "hidden": [
             "mod/punchy:resourcepacks/punchy",
@@ -27,9 +28,7 @@
             "required": true
         },
         "$$hidden": {
-            "hidden": true,
-            "fixed_position": true,
-            "default_position": "TOP"
+            "hidden": true
         }
     }
 }

@@ -118,7 +118,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["73CC61A9F5298076"]
@@ -131,6 +131,25 @@
 			}]
 			x: 6.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["73CC61A9F5298076"]
+			id: "4BC3936E131B5D42"
+			rewards: [{
+				id: "4896C8767B4CFD9A"
+				item: {
+					count: 1
+					id: "fieldguide:field_guide"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5286A942AE4A8C2B"
+				item: { count: 1, id: "minecraft:spyglass" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
 		}
 	]
 }

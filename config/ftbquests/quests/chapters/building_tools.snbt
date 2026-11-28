@@ -45,8 +45,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cozycritters:macawwindows)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -7.5d
+			x: -2.0d
+			y: -8.0d
 		}
 		{
 			id: "638FA04380A74215"
@@ -55,8 +55,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cozycritters:macawbridges)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -10.0d
+			x: 2.0d
+			y: -8.0d
 		}
 		{
 			id: "13473D175768CEB7"
@@ -65,8 +65,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cozycritters:macawstairs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -9.0d
+			x: -3.0d
+			y: -7.0d
 		}
 		{
 			id: "214D1B15430ADCA2"
@@ -75,8 +75,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cozycritters:macawdoors)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -6.0d
+			x: 1.0d
+			y: -5.0d
 		}
 		{
 			id: "54E2D9A3CF954AA1"
@@ -85,8 +85,8 @@
 				item: { count: 1, id: "mcwfences:oak_picket_fence" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.0d
+			x: -2.0d
+			y: -6.0d
 		}
 		{
 			id: "11CD9B18235D1D02"
@@ -95,7 +95,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cozycritters:macawfurnitures)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: -6.0d
 		}
 		{
@@ -105,8 +105,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cozycritters:macawlights)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -7.5d
+			x: -1.0d
+			y: -9.0d
 		}
 		{
 			id: "309700392D2E85D4"
@@ -115,7 +115,7 @@
 				item: { count: 1, id: "mcwpaths:oak_planks_path" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: -9.0d
 		}
 		{
@@ -125,17 +125,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cozycritters:macawtrapdoors)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -7.5d
-		}
-		{
-			id: "3F2CE2876E54EAEA"
-			tasks: [{
-				id: "66F92C68E52E92B9"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: -3.5d
+			x: 3.0d
+			y: -7.0d
 		}
 		{
 			id: "43BBB968CCBEA52F"
@@ -163,6 +154,16 @@
 			]
 			x: 0.0d
 			y: 1.5d
+		}
+		{
+			id: "6F05A31674428444"
+			tasks: [{
+				id: "250B72CF37117E87"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cozycritters:macawholidays)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
 		}
 	]
 }

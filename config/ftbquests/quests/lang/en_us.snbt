@@ -76,15 +76,11 @@
 	quest.2994B815B659FA44.title: "Buzzier Bees"
 	quest.2A2FCF2BE230485E.title: "Macaw's Trapdoors"
 	quest.2DB282B54FC3E837.quest_desc: [
-		"Andesite Alloy is a primary crafting ingredient in &6Create,&r and the main reason you collected that andesite in the first place."
+		"Andesite Alloy is a primary crafting ingredient in &6Create,&r and the main reason you needed that andesite in the first place."
 		""
 		"You can make it with just 2 andesite and either 2 Iron Nuggets or 2 Zinc Nuggets. In the future you'll only need 1 of each!"
 	]
-	quest.2E0988955DF29048.quest_desc: [
-		"&6Rechiseled&r and &6Chipped&r allow you to change a lot of blocks into some new variants using the &6Chisel&rs."
-		""
-		"Due to an addon, the Rechiseled Chisel can be used for Chipped too!"
-	]
+	quest.2E0988955DF29048.quest_desc: ["&6Rechiseled&r and &6Chipped&r allow you to change a lot of blocks into some new variants using the &6Chisel&rs."]
 	quest.2E0988955DF29048.title: "Chisels"
 	quest.2E714AA39B073EA3.quest_desc: [
 		"The &cArtifacts&r mod adds a lot of new items you can discover while looting."
@@ -92,6 +88,7 @@
 		"The &7Everlasting Beef/Eternal Steak&r have been disabled to encourage the farming aspect of the pack more."
 	]
 	quest.2FC3080B46F3B40D.title: "Macaw's Lights"
+	quest.309700392D2E85D4.title: "Macaw's Paths"
 	quest.319BB08C3FA0C59E.quest_desc: [
 		"&aSerene Seasons&r adds... you guessed it: seasons."
 		""
@@ -119,17 +116,11 @@
 	]
 	quest.377909E947774274.title: "Commands"
 	quest.39C3729722D0E468.quest_desc: [
-		"With your new tools you can use &lFTB-Ultimine&r (Defaulted to your GRAVE key, usually between Esc and Tab) to mine up to 16 blocks."
+		"With your new tools you can use &aFTB Ultimine&r (Defaulted to your GRAVE key, usually between Esc and Tab) to mine up to 16 blocks."
 		""
-		"This also includes till-ing dirt, or even harvesting crops!"
+		"This also includes tilling dirt or even harvesting crops!"
 	]
 	quest.39C3729722D0E468.title: "The Stone Age"
-	quest.3F2CE2876E54EAEA.quest_desc: [
-		"I'll work on having this be less... ugly for macaws in the future."
-		""
-		"Right now, I'm sort of unsure how I wanna proceed with that."
-	]
-	quest.3F2CE2876E54EAEA.title: "Macaw's Is Split Too Much"
 	quest.41CE401FDD2474F7.quest_desc: [""]
 	quest.41CE401FDD2474F7.title: "Handcrafted"
 	quest.43BBB968CCBEA52F.quest_desc: [
@@ -145,11 +136,17 @@
 		""
 		"The base version requires you to manually harvest."
 		""
-		"The hopper version allows automatic harvesting. Using an &aefficiency&r hoe here will shorten the grow time."
+		"The hopper version allows automatic harvesting."
 		""
 		"Andd the waxed version will simply show the crop in its fully grown state, without being farmable."
 	]
 	quest.47E2D16AC726ED4E.title: "Botany Pots"
+	quest.4BC3936E131B5D42.quest_desc: [
+		"&2Field Guide&r adds an extra use to &6Spyglasses&r,"
+		""
+		"You can now zoom in and discover lore pieces on plants, animals and monsters."
+	]
+	quest.4BC3936E131B5D42.title: "&2Field Guide&r"
 	quest.4C194BA068DC71C6.quest_desc: [
 		"&lThis is purely for the Beta while things get sorted into their normal spots.&r"
 		""
@@ -159,9 +156,9 @@
 	quest.4C956F8F630A8BDA.title: "Functional Storage"
 	quest.52F50AAC2896AAE5.quest_desc: ["The &6Feeding Trough&r can be used to have animals feed themselves, and eventually breeding."]
 	quest.53871935A5E9783D.quest_desc: [
-		"Get your trusty &6Wrench&r and &6Goggles!&r. I'll even refund the gold."
+		"Get your trusty &6Wrench&r and &6Goggles&r!"
 		""
-		"&6Wrench&r can be used to pick-up &6Create&r blocks or to change the state (and even rotation!) of &6Create&r related things."
+		"The &6Wrench&r can be used to pick-up &6Create&r blocks or to change the state (and even rotation!) of &6Create&r related things."
 		""
 		"The &6Engineer's Goggles&r when equipped will show you useful information about your &6Create&r machines"
 	]
@@ -187,8 +184,6 @@
 		""
 		"It's primarily in the pack due to how stunning the visuals are... especially the moving parts. Did I mention the Elevators?"
 		""
-		"Andddd it's been integrated with some extra stuff like easy cobblestone and a lot of other things!"
-		""
 		"{@pagebreak}"
 		"Anyway, with all that being said... Get yourself lots of andesite to begin your &6Create&r journey."
 	]
@@ -202,6 +197,7 @@
 		""
 		"The &6Food Book&r lets you see all the foods and whether you've eaten them so far."
 	]
+	quest.6F05A31674428444.title: "Macaw's Holidays"
 	quest.7019328FE555F310.quest_desc: [
 		"Ever wanted Boobs? No? Oh well."
 		""
@@ -209,6 +205,7 @@
 	]
 	quest.73A8EDC909FAC340.quest_desc: ["Allows you to use more paintings and even custom ones!"]
 	quest.73A8EDC909FAC340.title: "Immersive Paintings"
+	quest.73CC61A9F5298076.quest_desc: [""]
 	quest.73CC61A9F5298076.title: "The Metal Age"
 	quest.76A814D87B2343D5.quest_desc: [
 		"Tom's Simple Storage "
@@ -237,6 +234,7 @@
 	task.186CB9435D913C01.title: "Any #cozycritters:macawlights"
 	task.1A0F581767FC8EB1.title: "Any #functionalstorage:fluid_drawer"
 	task.20A0EBACD46F6A4C.title: "Artifacts"
+	task.250B72CF37117E87.title: "Any #cozycritters:macawholidays"
 	task.2B08760707D36F0B.title: "Any #constructionstick:construction_sticks"
 	task.34E22E1F95F6B475.title: "Any #c:cobblestones"
 	task.37803294B8BC0BC1.title: "Any #minecraft:hoes"
@@ -251,7 +249,6 @@
 	task.5BD6A5F28BF183A3.title: "Any #cozycritters:macawbridges"
 	task.5DAA2BC9DA07C36D.title: "Any #cozycritters:macawwindows"
 	task.63D2F16CEFBC4DA3.title: "Any #cozycritters:macawfurnitures"
-	task.66F92C68E52E92B9.title: "Macaw's Is Split Too Much"
 	task.685AD6DC9D060C7F.title: "3"
 	task.6F130F6F87C499A5.title: "2"
 	task.70BF46A4EDBADBA9.title: "Any #comforts:sleeping_bags"
